@@ -54,6 +54,10 @@ main {
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+}
+
 .card {
     border: solid 2px #44554D
 }
