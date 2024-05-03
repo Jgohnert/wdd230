@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+  }
+
+header, footer {
+    padding: 1%;
+    background-color: rgb(49, 51, 70);
+    color: white;
+    text-align: center;
+}
+
+body {
+    font-family: Roboto, arial, sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    
+}
+
+section {
+    padding: 0;
+    margin: 10%;
+    background-color: rgb(238, 238, 238);
+
+}
+
+p, a {
+    margin: 20px;
+}
+
+h3 {
+    padding: 15px;
+    background-color: rgb(61, 91, 116);
+    
+}
+
+.card {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+}
+
+.webimage {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
