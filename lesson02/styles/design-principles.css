@@ -1,14 +1,15 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0; 
-  }
+    padding: 0;
+}
 
 header, footer {
     padding: 1%;
-    background-color: rgb(49, 51, 70);
+    background-color: #70161E;
     color: white;
     text-align: center;
+    border-bottom: solid 5px #44554D;
 }
 
 body {
@@ -19,12 +20,12 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1rem;
-    
+
 }
 
 section {
     padding: 0;
-    margin: 10%;
+    margin: 5%;
     background-color: rgb(238, 238, 238);
 
 }
@@ -35,18 +36,22 @@ p, a {
 
 h3 {
     padding: 15px;
-    background-color: rgb(61, 91, 116);
-    
+    background-color: #7e9c8e;
+
 }
 
 .card {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     overflow: hidden;
+    border: solid 2px #cacaca;
 }
 
 .webimage {
     display: block;
     margin: 0 auto;
     margin-top: 15px;
+    width: 90%;
+    height: auto;
+    border: solid 2px #cacaca;
 }
