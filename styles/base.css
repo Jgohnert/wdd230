@@ -1,23 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap');
 
-
 html,
 body {
     margin: 0;
     padding: 0;
     height: 100%;
     font-family: anek, arial, sans-serif;
-}
+} 
 
 header {
     display: grid;
     grid-template-columns: 45% 55%;
     background-color: #70161E;
     height: 150px;
-    text-align: left;
     align-items: center;
     color: white;
     border-bottom: solid 5px #44554D;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    padding: 5rem;
+}
+
+section {
+    text-align: center;
+    align-items: center;
 }
 
 .myimage {
@@ -47,11 +57,6 @@ nav a {
 nav a:hover {
     background-color: white;
     color: black;
-}
-
-main {
-    margin: auto 30% auto 30%;
-    text-align: center;
 }
 
 h2 {
