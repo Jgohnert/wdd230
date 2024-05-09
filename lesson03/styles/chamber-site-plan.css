@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Parisienne&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 20px;
+    text-align: center;
+}
+
+li {
+    text-align: left;
+}
+
+.roboto-mono-uniquifier {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.noto-sans {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.dark-blue {
+    background-color: #01295f;
+    padding: 1rem;
+    color: white;
+}
+
+.light-blue {
+    background-color: #01295f;
+    color: white;
+}
+
+.light-blue:hover {
+    background-color: #437f97;
+    color: black;
+}
+
+.grey {
+    background-color: #c9c9c9;
+    padding: 1rem;
+    color: black;
+    border: solid 5px #5b5b5b;
+}
+
+.red {
+    background-color: #c21e24;
+    padding: 1rem;
+    color: white;
+}
+
+
+  
