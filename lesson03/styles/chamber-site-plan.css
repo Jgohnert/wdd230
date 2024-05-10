@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 body {
-    max-width: 1200px;
     margin: 0 auto;
     padding-left: 20%;
     padding-right: 20%;
@@ -56,6 +55,3 @@ li {
     padding: 1rem;
     color: white;
 }
-
-
-  
