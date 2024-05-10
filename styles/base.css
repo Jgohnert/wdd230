@@ -38,29 +38,52 @@ section {
     height: auto;
 }
 
-nav {
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-bottom: solid 5px #44554D;
+#menu {
+	font-size: 1.7rem;
+	border: 0;
+	background: none;
+ 	position: absolute;
+	left: 0.2rem;
+    margin: 0.5rem;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    width: 100%;
-    padding: 10px;
+#menu::before {
+	content: "☰";
+    color: #000000;
 }
 
-nav a:hover {
-    background-color: white;
-    color: black;
+#menu.open::before {
+	content: "✖";
+    color: #fff;
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	background-color: #000000;
+}
+
+.navigation a {
+	display: none;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+
+.navigation a:hover {
+	background-color: #44554D;
+	color: #fff;
+	font-weight: 600;
+}
+
+.open a {
+	display: block;
 }
 
 h2 {
     text-align: center;
+    margin: 0.7rem;
 }
 
 .card {
@@ -77,10 +100,16 @@ li {
     text-align: left;
 }
 
+div {
+    display: flex;
+    justify-content: center;
+    
+}
+
 footer {
     background-color: #70161E;
     color: white;
-    margin-top: 100px;
+    margin-top: 20px;
     border-top: solid 5px #44554D;
     align-items: center;
     text-align: center;
