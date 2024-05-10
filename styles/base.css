@@ -105,6 +105,10 @@ div {
     justify-content: center;
 }
 
+.flag {
+    margin-left: 15px;
+}
+
 footer {
     background-color: #70161E;
     color: white;
