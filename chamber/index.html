@@ -6,7 +6,7 @@
     <title>Joanna Gohnert - WDD 230 - Fairfax Chamber of Commerce Homepage</title>
     <meta property="og:title" content="Joanna Gohnert - WDD 230 - Fairfax Chamber of Commerce Homepage">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="chamber/images/fairfaxarea.jpg">
+    <meta property="og:image" content="images/fairfaxarea.jpg">
     <meta property="og:url" content="https://jgohnert.github.io/wdd230/chamber">
     <meta name="author" content="Joanna Gohnert">
     <meta name="description" 
@@ -14,12 +14,75 @@
     It is a site committed to the advancement of local businesses that will ensure positive innovations 
     and partnerships that will lead to their success.">
     <link rel="stylesheet" href="../styles/normalize.css">
-    <link type="text/css" rel="stylesheet" href="chamber/styles/base.css">
-    <link type="text/css" rel="stylesheet" href="chamber/styles/medium.css">
-    <link type="text/css" rel="stylesheet" href="chamber/styles/larger.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link type="text/css" rel="stylesheet" href="styles/base.css">
+    <link type="text/css" rel="stylesheet" href="styles/medium.css">
+    <link type="text/css" rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="images/favicon.ico">
 </head>
 <body>
-    
+    <header>
+        <h1>Fairfax Chamber of Commerce</h1>
+    </header>
+    <button id="menu"></button>
+    <div class="hero-container">
+        <div class="join">
+            <nav class="navigation">
+                <a href="#">Home</a>
+                <a href="#">Membership</a>
+                <a href="#">About</a>
+                <a href="#">Events</a>
+            </nav>
+            <p>
+                The Fairfax Chamber of Commerce is committed to the advancement of local businesses. 
+                With the efforts of our members, we will ensure positive innovations through collaborative 
+                networking and partnerships that will lead to the success of businesses and the growth of our community.
+            </p>
+            <div class="join-link">
+                <a href="#">Join Now</a>
+            </div>
+        </div>
+        <img id="hero-image" src="images/corn-hero-image.jpg" alt="image of corn field">
+    </div>
+    <main>
+        <h2>Upcoming Events</h2>
+        <section class="card">
+            <h3>Fairfax market BBQ</h3>
+            <p>Come join us as the Fairfax Market for free burgers and hotdogs!</p>
+            <p>Date: Sept 18th</p>
+            <p>Time: 11:00 AM - 1:00 PM</p>
+        </section>
+        <section class="card">
+            <h3>Smokey Hollow $1 Cones</h3>
+            <p>Enjoy a one scoop vanilla ice cream cone for only $1.</p>
+            <p>Smokey Hollow Café</p>
+            <p>Date: Sept 5th</p>
+        </section>
+        
+    </main>
+    <div class="spotlight">
+        <h3>Company Spotlights</h3>
+        <section class="spotlight-card">
+            <p>Smokey Hollow café</p>
+        </section>
+        <section class="spotlight-card">
+            <p>Fairfax Market</p>
+        </section>
+        <section class="spotlight-card">
+            <p>Sunflower Salon</p>
+        </section>
+    </div>
+    <section class="weather-card">
+        <p>Weather Information</p>
+        <p id="weather">Information about the weather</p>
+    </section>
+    <footer>
+        <p>Joanna Gohnert</p>
+        <p>Contact Information: 507-766-0949</p>
+        <p>WDD 230 - Web Frontend Development Project</p>
+        Last Modification: <span id="lastmodified"></span>
+    </footer>
+    <script src="scripts/dates.js"></script>
+    <script src="scripts/menu.js"></script>
 </body>
 </html>
