@@ -23,6 +23,10 @@
 <body>
     <header>
         <h1>Fairfax Chamber of Commerce</h1>
+        <label class="switch">
+            <input type="checkbox" id="dark-mode">
+            <span class="slider round"></span>
+        </label>
     </header>
     <button id="menu"></button>
     <div class="hero-container">
@@ -42,7 +46,7 @@
                 <a href="#">Join Now</a>
             </div>
         </div>
-        <img id="hero-image" src="images/corn-hero-image.jpg" alt="image of corn field">
+        <img id="hero-image" src="images/hero-image.jpg" alt="image of corn field">
     </div>
     <main>
         <h2>Upcoming Events</h2>
@@ -60,23 +64,23 @@
                 <p>Date: Sept 5th</p>
             </section>
         </div>
+        <div class="spotlight">
+            <h3>Company Spotlights</h3>
+            <div class="spotlight-card">
+                <p>Smokey Hollow café</p>
+            </div>
+            <div class="spotlight-card">
+                <p>Fairfax Market</p>
+            </div>
+            <div class="spotlight-card">
+                <p>Sunflower Salon</p>
+            </div>
+        </div>
+        <section class="weather-card">
+            <h4>Weather Information</h4>
+            <p id="weather">Information about the weather</p>
+        </section>
     </main>
-    <div class="spotlight">
-        <h3>Company Spotlights</h3>
-        <div class="spotlight-card">
-            <p>Smokey Hollow café</p>
-        </div>
-        <div class="spotlight-card">
-            <p>Fairfax Market</p>
-        </div>
-        <div class="spotlight-card">
-            <p>Sunflower Salon</p>
-        </div>
-    </div>
-    <section class="weather-card">
-        <h4>Weather Information</h4>
-        <p id="weather">Information about the weather</p>
-    </section>
     <footer>
         <p>Joanna Gohnert</p>
         <p>Contact Information: 507-766-0949</p>
