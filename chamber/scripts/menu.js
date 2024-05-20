@@ -1,6 +1,6 @@
 const menuButton = document.querySelector("#menu");
 const navigation = document.querySelector(".navigation");
-const h2Container = document.querySelector('h2');
+const h2Container = document.querySelector("h2");
 
 menuButton.addEventListener("click", () => {
     navigation.classList.toggle("open");
