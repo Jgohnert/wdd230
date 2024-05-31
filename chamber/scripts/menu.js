@@ -15,10 +15,10 @@ const img = document.getElementById("hero-image");
 function labelSizes() {
     const widthOfImage = img.clientWidth;
 
-    if (widthOfImage <= 350) {
+    if (widthOfImage <= 600) {
         label.innerText = 'Small';
     }
-    else if (widthOfImage <= 650) {
+    else if (widthOfImage <= 900) {
         label.innerText = 'Medium';
     }
     else {

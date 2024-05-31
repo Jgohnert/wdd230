@@ -89,7 +89,7 @@ section {
     position: absolute;
     justify-self: right;
     margin: 2%;
-    font-size: 10px;
+    font-size: 20px;
     padding: 6px;
 }
 
@@ -101,7 +101,7 @@ section {
 
 h2 {
     text-align: center;
-    margin: 0.7rem;
+    margin: 2rem;
 }
 
 .card {
@@ -120,7 +120,7 @@ li {
     padding: 5px;
 }
 
-div, .maps {
+.maps {
     display: flex;
     justify-content: center;
 }
