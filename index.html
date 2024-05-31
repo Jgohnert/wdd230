@@ -6,10 +6,11 @@
     <title>Joanna Gohnert - WDD 230 - Web Frontend Development Homepage</title>
     <meta property="og:title" content="Joanna Gohnert - WDD 230 - Web Frontend Development Homepage">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="images/myarea.jpg">
+    <meta property="og:image" content="images/myarea.webp">
     <meta property="og:url" content="https://jgohnert.github.io/wdd230">
     <meta name="author" content="Joanna Gohnert">
-    <meta name="description" content="This is Joanna Gohnert's course assignment portal for WDD 230 - Web Frontend Development.">
+    <meta name="description"
+    content="This is Joanna Gohnert's course assignment portal for WDD 230 - Web Frontend Development.">
     <link rel="stylesheet" href="styles/normalize.css">
     <link type="text/css" rel="stylesheet" href="styles/base.css">
     <link type="text/css" rel="stylesheet" href="styles/base-larger.css">
@@ -17,7 +18,7 @@
   </head>
   <body>
     <header>
-      <img class="myimage" src="images/imageofme.jpg" alt="Image of me">
+      <img class="myimage" src="images/imageofme.webp" alt="Image of me">
       <h1>Joanna Gohnert</h1>
     </header>
     <button id="menu"></button>
@@ -26,34 +27,45 @@
       <a href="lesson03/chamber-site-plan.html">Site Plan</a>
       <a href="chamber/">Chamber</a>
       <a href="https://www.byui.edu/" target="_blank">BYU-Idaho</a>
-      <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/matt/19?lang=eng&id=26#p26" target="_blank">Scripture</a>
+      <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/matt/19?lang=eng&id=26#p26"
+        target="_blank">Scripture</a>
     </nav>
-    <h2>WDD 230: Web Frontend Development</h2>
     <main>
+      <div id="temple-text">
+        <p class="courgette-regular">Oakland California Temple</p>
+      </div>
+      <div id="hero-image">
+        <picture>
+          <source srcset="images/oakland-temple-small.webp" media="(max-width: 400px)">
+          <img src="images/oakland-temple-large.webp" alt="Image of the Oakland Temple" width="960">
+        </picture>
+      </div>
+      <h2>WDD 230: Web Frontend Development</h2>
       <section class="card">
         <h3>Learning Activities</h3>
         <ul>
           <li><a href="lesson01/holygrail.html">lesson01</a></li>
           <li><a href="lesson02/design.html">lesson02 - Design</a> | <a href="lesson02/media-query.html">lesson02 - Media Query</a> | <a href="lesson02/design-principles.html" target="_blank">lesson02 Assignment - Design Principles</a></li>
-          <li><a href="images/w3school-combinator-exercises.png">lesson03 - Combinator exercises screenshot</a> | <a href="https://codepen.io/Jgohnert/pen/ExzYWgK">lesson03 - Pseudo-elements Activity</a> | <a href="https://codepen.io/Jgohnert/pen/zYQOwML">lesson03 - Responsive Menu Activity</a></li>
+          <li><a href="images/w3school-combinator-exercises.webp">lesson03 - Combinator exercises screenshot</a> | <a href="https://codepen.io/Jgohnert/pen/ExzYWgK">lesson03 - Pseudo-elements Activity</a> | <a href="https://codepen.io/Jgohnert/pen/zYQOwML">lesson03 - Responsive Menu Activity</a></li>
           <li><a href="https://codepen.io/Jgohnert/pen/ZENGYBm">lesson04 - CSS Pseudo-Classes</a></li>
           <li><a href="lesson05/bom.html">lesson05 - Favorite Book of Mormon scripture list</a></li>
-          <li><a href="images/landscape.webp">lesson06 - WebP</a> | <a href="lesson06/responsive-images.html">lesson06 - Responsive Images</a></li>
-        </ul>
-        </section>
+          <li><a href="images/landscape.webp">lesson06 - WebP</a> | <a href="lesson06/responsive-images.html">lesson06 - Responsive Images</a></li></ul>
+      </section>
       <section class="card">
         <h3>Information</h3>
         <p id="weather">Information about the weather</p>
         <p id="visits">Number of visits to the page</p>
       </section>
     </main>
-    <div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.303916072903!2d-94.72563!3d44.44743900000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f53d54f3b288ed%3A0x30d9ce3108c2a0d1!2sFort%20Ridgely%20State%20Park!5e0!3m2!1sen!2sus!4v1715132299168!5m2!1sen!2sus" 
-    width="1100" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" name="Map of Fort Ridgely State Park"></iframe>
+    <div class="maps">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.303916072903!2d-94.72563!3d44.44743900000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f53d54f3b288ed%3A0x30d9ce3108c2a0d1!2sFort%20Ridgely%20State%20Park!5e0!3m2!1sen!2sus!4v1715132299168!5m2!1sen!2sus"
+        width="1100" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" name="Map of Fort Ridgely State Park"></iframe>
     </div>
     <footer>
       &copy; <span id="currentyear"></span> - Joanna Gohnert
-      <p>USA<span><img class="flag" src="images/american-flag.png" alt="The American flag"></span></p>
+      <p>USA<span><img class="flag" src="images/american-flag.webp" alt="The American flag"></span></p>
       Last Modification: <span id="lastmodified"></span>
     </footer>
     <script src="scripts/getdates.js"></script>

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 html,
 body {
@@ -18,24 +19,22 @@ header {
     border-bottom: solid 5px #44554D;
 }
 
-main {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 2rem;
-    padding: 5rem;
-}
-
-section {
-    text-align: center;
-    align-items: center;
-}
-
 .myimage {
     display: block;
     margin-left: auto;
     margin-right: 10%;
     width: 70px;
     height: auto;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+section {
+    text-align: center;
+    align-items: center;
 }
 
 #menu {
@@ -81,13 +80,33 @@ section {
 	display: block;
 }
 
+#hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+#temple-text {
+    position: absolute;
+    justify-self: right;
+    margin: 2%;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.courgette-regular {
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
 h2 {
     text-align: center;
     margin: 0.7rem;
 }
 
 .card {
-    border: solid 2px #44554D
+    border: solid 2px #44554D;
+    margin: 1rem;
 }
 
 .card h3 {
@@ -101,7 +120,7 @@ li {
     padding: 5px;
 }
 
-div {
+div, .maps {
     display: flex;
     justify-content: center;
 }
