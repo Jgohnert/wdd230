@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    margin: 0%;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header, footer {
+    background-color: rgb(245, 140, 140);
+    padding: 20px;
+}
+
+main {
+    width: 400px;
+    margin: 0 auto;
+}
+
+img {
+    background: black;
+    animation: fade 5s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
