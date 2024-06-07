@@ -47,7 +47,6 @@ section {
 }
 
 #menu::before {
-	content: "☰";
     color: #000000;
 }
 
