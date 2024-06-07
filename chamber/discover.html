@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joanna Gohnert - WDD 230 - Fairfax Chamber of Commerce Homepage</title>
+    <meta property="og:title" content="Joanna Gohnert - WDD 230 - Fairfax Chamber of Commerce Homepage">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://jgohnert.github.io/wdd230/chamber/images/fairfaxarea.webp">
+    <meta property="og:url" content="https://jgohnert.github.io/wdd230/chamber">
+    <meta name="author" content="Joanna Gohnert">
+    <meta name="description" content="This is Joanna Gohnert's Fairfax Chamber of Commerce Webpage for WDD 230. 
+    It is a site committed to the advancement of local businesses that will ensure positive innovations 
+    and partnerships that will lead to their success.">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link type="text/css" rel="stylesheet" href="styles/base.css">
+    <link type="text/css" rel="stylesheet" href="styles/medium.css">
+    <link type="text/css" rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.ico">
+  </head>
+  <body>
+    <header>
+      <img src="images/chamber-logo.webp" alt="Fairfax Chamber of Commerce logo" width="270">
+      <label class="switch">
+        <input type="checkbox" id="dark-mode">
+        <span class="slider round"></span>
+      </label>
+    </header>
+    <div id="size-label"></div>
+    <button id="menu"></button>
+    <div class="info-container">
+      <div class="join">
+        <nav class="navigation">
+          <a href="#">Home</a>
+          <a href="#">Membership</a>
+          <a href="#">Discover</a>
+          <a href="#">Events</a>
+        </nav>
+        <div class="join-link">
+          <a href="#">Join Now</a>
+        </div>
+      </div>
+    </div>
+    <h1>Discover what's knew in Fairfax</h1>
+    <main>
+      <div class="discover-main-grid">
+        <section id="left-sidebar">
+          <div class="card">
+            <picture>
+              <img class="first-event" src="images/dayz-of-thunder.webp" alt="Days of thunder calendar" width="250" height="200">
+            </picture>
+            <p>
+              Fairfax Days of Thunder will start on the 23rd through the 26th of June.
+              There will be games, dancing, music, and a carnival. Don't miss this
+              yearly event!
+            </p>
+          </div>
+          <div class="card">
+            <P>free burgers and hotdogs!</P>
+            <picture>
+              <img src="images/fairfax-market.webp" alt="Fairfax Market logo" width="250" height="120">
+            </picture>
+            <p>
+              On September 18th, the Fairfax market will be grilling burgers and hotdogs 
+              for free to celebrate their fifth year anniversary. Food will be serviced
+              outside at 11:00 AM and will go until 1:00 PM.
+            </p>
+          </div>
+          <div class="card">
+            <picture>
+              <img src="images/smokey-hollow.webp" alt="Smokey Hollow logo" width="250" height="120">
+            </picture>
+            <p>
+              Smokey Hollow Café will be serving a scoop of vanilla ice cream for only $1.
+              Come anytime during the 5th of September during service ours to get your
+              dollar cone.
+            </p>
+        </section>
+        <section id="discover-img">
+          <picture>
+            <img src="images/discover-image1.webp" alt="Farmland" width="500" height="397" loading="lazy">
+          </picture>
+          <picture>
+            <img src="images/discover-image2.webp" alt="Ice cream" width="500" height="397" loading="lazy">
+          </picture>
+          <picture>
+            <img src="images/discover-image3.webp" alt="Forest path" width="500" height="397" loading="lazy">
+          </picture>
+          <picture>
+            <img src="images/discover-image4.webp" alt="Playground" width="500" height="397" loading="lazy">
+          </picture>
+          <picture>
+            <img src="images/discover-image5.webp" alt="County Fair" width="500" height="397" loading="lazy">
+          </picture>
+          <picture>
+            <img src="images/discover-image6.webp" alt="Snowy forest" width="500" height="397" loading="lazy">
+          </picture>
+          <picture>
+            <img src="images/discover-image7.webp" alt="Sunrise over Fairfax" width="500" height="397" loading="lazy">
+          </picture>
+          <picture>
+            <img src="images/discover-image8.webp" alt="Autumn sidewalk" width="500" height="397" loading="lazy">
+          </picture>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>Joanna Gohnert</p>
+      <p>Contact Information: 507-766-0949</p>
+      <p>WDD 230 - Web Frontend Development Project</p>
+      Last Modification: <span id="lastmodified"></span>
+    </footer>
+    <script src="scripts/dates.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/dark-mode.js"></script>
+    <script src="scripts/windchill.js"></script>
+  </body>
+</html>

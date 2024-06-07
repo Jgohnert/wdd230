@@ -117,7 +117,16 @@ h2 {
 
 li {
     text-align: left;
-    padding: 5px;
+    padding: 6px;
+}
+
+.Information {
+    margin: 30% auto;
+    
+}
+
+#weather {
+    margin-bottom: 10%;
 }
 
 .maps {

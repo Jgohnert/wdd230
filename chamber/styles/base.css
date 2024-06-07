@@ -30,7 +30,7 @@ header {
 }
 
 header img {
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .switch {
@@ -120,7 +120,7 @@ input:checked + .slider:before {
     border-radius: 25px;
     max-width: 80px;
     height: 30px;
-    margin: auto;
+    margin: 50px auto 0px auto;
 }
 
 .join-link a {
@@ -143,7 +143,7 @@ input:checked + .slider:before {
 	background: none;
 	color: #ffffff;
  	position: absolute;
-	top: 1.4rem;
+	top: 1.2rem;
 	left: 0.1rem;
 }
 
@@ -189,7 +189,6 @@ main {
     height: 100%;
     text-align: center;
     align-items: center;
-
 }
 
 h1 {
@@ -210,9 +209,13 @@ h2 {
     background-color: #ebebeb;
     border: solid 2px #d4d4d4;
     padding: 2rem;
-    max-width: 300px;
+    max-width: 400px;
     margin: auto;
     border-radius: 4px;
+}
+
+.card h2 {
+    margin: 15px;
 }
 
 .spotlight h3 {
@@ -226,7 +229,7 @@ h2 {
     overflow-x: auto;
     padding-bottom: 10px; 
     display: flex; 
-    margin-top: 50px;
+    margin-top: 200px;
     margin-bottom: 50px;
 }
 
@@ -263,5 +266,35 @@ footer {
     color: white;
     padding: 0.5rem;
     text-align: center;
-    font-size: 12px;
+    font-size: 12px; 
+    margin-top: 50px;
+}
+
+div ~ h1 {
+    margin: 100px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.discover-main-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#left-sidebar {
+    overflow-y: auto;
+    max-height: 1300px;
+    
+}
+
+#discover-img {
+    overflow-y: auto;
+    max-height: 1300px;
+}
+
+#discover-img img {
+    height: auto;
 }

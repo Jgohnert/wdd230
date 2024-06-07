@@ -1,28 +1,7 @@
-@media (min-width: 40em) {
+@media (min-width: 80em) {
 
-	#menu {
-		display: none; 
-	}
-
-	.navigation {
-		flex-direction: row;
-	}
-
-	.navigation a {
-		display: block;
-		flex: 1 1 100%;
-	}
-
-    #events {
-        display: flex;
-    }
-
-	main {
-		margin-top: 400px;
-	}
-	
-	h1 {
-		margin-top: 500px;
+	#discover-img {
+		width: 1100px;
 	}
 
 }
