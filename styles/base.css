@@ -134,6 +134,10 @@ li {
     justify-content: center;
 }
 
+iframe {
+    border: 0;
+}
+
 .flag {
     margin-left: 15px;
 }
