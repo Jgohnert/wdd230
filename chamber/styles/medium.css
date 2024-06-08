@@ -23,8 +23,6 @@
 
 	.discover-main-grid {
 		grid-template-columns: 1fr 2fr;
-
-
 	}
 
 	#left-sidebar {
@@ -33,6 +31,10 @@
 
 	.discover-main-grid h1 {
 		grid-column: 2;
+	}
+
+	#discover-img {
+		margin: 0%;
 	}
 
 }

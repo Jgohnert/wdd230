@@ -274,6 +274,10 @@ div ~ h1 {
     margin: 100px;
 }
 
+.join .welcome {
+    padding: 50px;
+}
+
 .card img {
     width: 100%;
     height: auto;
@@ -286,13 +290,14 @@ div ~ h1 {
 
 #left-sidebar {
     overflow-y: auto;
-    max-height: 1300px;
-    
+    max-height: 1400px;
+    font-size: 14px;
 }
 
 #discover-img {
     overflow-y: auto;
     max-height: 1300px;
+    padding-top: 55px;
 }
 
 #discover-img img {

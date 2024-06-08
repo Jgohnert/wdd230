@@ -16,15 +16,15 @@ menuButton.addEventListener("click", () => {
 //     const widthOfImage = img.clientWidth;
 
 //     if (widthOfImage <= 600) {
-//         label.innerText = 'Small';
+//         label.innerText = "Small";
 //     }
 //     else if (widthOfImage <= 900) {
-//         label.innerText = 'Medium';
+//         label.innerText = "Medium";
 //     }
 //     else {
-//         label.innerText = 'Large';
+//         label.innerText = "Large";
 //     }
 // }
 
 // labelSizes();
-// window.addEventListener('resize', labelSizes);
+// window.addEventListener("resize", labelSizes);
