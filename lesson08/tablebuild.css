@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    margin: 50px auto;
+    border: thin solid rgb(214, 214, 214);
+    border-collapse: collapse;
+}
+
+tr:first-child th {
+    background-color: rgb(65, 28, 23);
+    color: white;
+    padding: 10px;
+    font-size: larger;
+}
+
+th {
+    background-color: rgb(182, 95, 73);
+    color: white;
+    padding: 20px;
+    border-right: thin solid rgb(70, 49, 49);
+}
+
+.blank {
+   background-color:  rgb(65, 28, 23);
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+    font-weight: 600;
+    border: thin solid rgb(70, 49, 49);;
+}
+
+tbody tr:nth-child(even) {
+	background-color: rgb(250, 230, 230)
+}
