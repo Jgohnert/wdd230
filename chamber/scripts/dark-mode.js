@@ -2,7 +2,7 @@ const darkmode = document.querySelector("#dark-mode");
 const body = document.querySelector("body");
 const eventCards = document.querySelectorAll(".card");
 const joinButton = document.querySelector(".join-link")
-const infoCard = document.querySelector("p")
+const infoCard = document.querySelector(".summary")
 
 darkmode.addEventListener("click", () => {
     body.classList.toggle("dark-mode");

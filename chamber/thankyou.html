@@ -12,6 +12,7 @@
     <meta name="description" content="This is Joanna Gohnert's Fairfax Chamber of Commerce Webpage for WDD 230. 
     It is a site committed to the advancement of local businesses that will ensure positive innovations 
     and partnerships that will lead to their success.">
+    <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <link type="text/css" rel="stylesheet" href="styles/base.css">
     <link type="text/css" rel="stylesheet" href="styles/medium.css">
@@ -21,10 +22,6 @@
   <body>
     <header>
       <img src="images/chamber-logo.webp" alt="Fairfax Chamber of Commerce logo" width="270">
-      <label class="switch">
-        <input type="checkbox" id="dark-mode">
-        <span class="slider round"></span>
-      </label>
     </header>
     <picture>
       <source srcset="images/replacement-image-small.webp" media="(max-width: 600px)">
@@ -41,58 +38,14 @@
           <a href="https://jgohnert.github.io/wdd230/chamber/discover">Discover</a>
           <a href="#">About</a>
         </nav>
-        <p class="summary">
-          The Fairfax Chamber of Commerce is committed to the advancement of
-          local businesses. With the efforts of our members, we will ensure
-          positive innovations through collaborative networking and partnerships
-          that will lead to the success of businesses and the growth of our
-          community.
-        </p>
-        <div class="join-link">
-          <a href="join.html">Join Now</a>
-        </div>
+        <h1>Thank you!</h1>
       </div>
     </div>
     <main>
-      <h1>Fairfax Chamber of Commerce</h1>
-      <h2>Upcoming Events</h2>
-      <div id="events">
-        <section class="card">
-          <h3>Fairfax market BBQ</h3>
-          <p>Come join us at the Fairfax Market for free burgers and hotdogs!</p>
-          <p>Date: Sept 18th</p>
-          <p>Time: 11:00 AM - 1:00 PM</p>
-        </section>
-        <section class="card">
-          <h3>Smokey Hollow $1 Cones</h3>
-          <p>Enjoy a scoop vanilla ice cream cone for only $1.</p>
-          <p>Smokey Hollow Café</p>
-          <p>Date: Sept 5th</p>
-        </section>
+      <div class="thankyou-page">
+      <p>Welcome to the Fairfax Chamber of Commerce.</p>
+      <p>Your membership application form has been submitted.</p>
       </div>
-      <div class="spotlight">
-        <div class="spotlight-card">
-          <picture>
-            <img class="first-logo" src="images/sunflower-salon.webp" alt="Sunflower Salon logo" width="350" height="120">
-          </picture>
-        </div>
-        <div class="spotlight-card">
-          <picture>
-            <img src="images/fairfax-market.webp" alt="Fairfax Market logo" width="350" height="120">
-          </picture>
-        </div>
-        <div class="spotlight-card">
-          <picture>
-            <img src="images/smokey-hollow.webp" alt="Smokey Hollow logo" width="350" height="120">
-          </picture>
-        </div>
-        <h3>Company Spotlights</h3>
-      </div>
-      <section class="weather-card">
-        <h4>Temperature Information</h4>
-        <span id="temperature">40</span>°F<br>
-        Windchill: <span id="windchill">12</span>
-      </section>
     </main>
     <footer>
       <p>Joanna Gohnert</p>
@@ -102,7 +55,6 @@
     </footer>
     <script src="scripts/dates.js"></script>
     <script src="scripts/menu.js"></script>
-    <script src="scripts/dark-mode.js"></script>
     <script src="scripts/windchill.js"></script>
   </body>
 </html>

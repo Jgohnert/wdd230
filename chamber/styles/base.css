@@ -188,7 +188,6 @@ input:checked + .slider:before {
 main {
     height: 100%;
     text-align: center;
-    align-items: center;
 }
 
 h1 {
@@ -301,4 +300,87 @@ div ~ h1 {
 
 #discover-img img {
     height: auto;
+}
+
+form {
+    margin: 100px auto 0px auto;
+    max-width: 300px;
+    padding-top: 1rem;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 50px;
+}
+
+.application label {
+    display: block;
+    padding-top: 1.5rem;
+}
+
+.application input[type="text"],
+.application input[type="email"],
+.application input[type="tel"]
+{ 
+    background-color: #f1f1f1;
+    display: block;
+    border: solid 1px #999;
+    padding: .75rem;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.application input[type="radio"] {
+    margin-right: 6px;
+}
+
+.mlevel {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.application legend {
+    font-weight: 800;
+}
+
+.join-h2 {
+    margin: 0px 10px;
+    padding: 0%;
+    text-align: left;
+}
+
+.benefits {
+    margin: 100px auto;
+    text-align: left;
+    width: 90%;
+    padding-top: 1rem;
+}
+
+.benefits h3{
+    margin-left: 20px;
+}
+
+.benefits img {
+    margin-top: 50px;
+}
+
+.application input[type="submit"] {
+    margin-left: 2px;
+    margin-bottom: 100px;
+    padding: 10px;
+    border: solid 1px #8d8d8d;
+    border-radius: 4px;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 8px 5px #8eb3c2;
+    transition: 0.1s;
+}
+
+.thankyou-page {
+    margin: 150px auto;
 }
