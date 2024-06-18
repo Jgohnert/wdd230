@@ -1,0 +1,117 @@
+{
+    "lessons": [
+        {
+            "lesson": "01",
+            "links": [
+                {
+                    "url": "lesson01/holygrail.html",
+                    "title": "Holy Grail Activity"
+                }
+            ]
+        },
+        {
+            "lesson": "02",
+            "links": [
+                {
+                    "url": "lesson02/design.html",
+                    "title": "Design"
+                },
+                {
+                    "url": "lesson02/media-query.html",
+                    "title": "Media Query"
+                },
+                {
+                    "url": "lesson02/design-principles.html",
+                    "title": "Design Principles"
+                }
+            ]
+        },
+        {
+            "lesson": "03",
+            "links": [
+                {
+                    "url": "images/w3school-combinator-exercises.webp",
+                    "title": "Combinator exercises screenshot"
+                },
+                {
+                    "url": "https://codepen.io/Jgohnert/pen/ExzYWgK",
+                    "title": "Pseudo-elements"
+                },
+                {
+                    "url": "https://codepen.io/Jgohnert/pen/zYQOwML",
+                    "title": "Responsive Menu"
+                }
+            ]
+        },
+        {
+            "lesson": "04",
+            "links": [
+                {
+                    "url": "https://codepen.io/Jgohnert/pen/ZENGYBm",
+                    "title": "CSS Pseudo-Classes"
+                }
+            ]
+        },
+        {
+            "lesson": "05",
+            "links": [
+                {
+                    "url": "lesson05/bom.html",
+                    "title": "Favorite Book of Mormon scripture list"
+                }
+            ]
+        },
+        {
+            "lesson": "06",
+            "links": [
+                {
+                    "url": "images/landscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": "lesson06/responsive-images.html",
+                    "title": "Responsive Images"
+                }
+            ]
+        },
+        {
+            "lesson": "07",
+            "links": [
+                {
+                    "url": "lesson07/lazyload.html",
+                    "title": "Lazy load images example"
+                },
+                {
+                    "url": "lesson07/bom.html",
+                    "title": "Favorite BOM local storage"
+                }
+            ]
+        },
+        {
+            "lesson": "08",
+            "links": [
+                {
+                    "url": "lesson08/tablebuild.html",
+                    "title": "HTML Table"
+                },
+                {
+                    "url": "lesson08/form-start/Form-start/index.html",
+                    "title": "HTML Form"
+                }
+            ]
+        },
+        {
+            "lesson": "09",
+            "links": [
+                {
+                    "url": "lesson09/new-ward-members.json",
+                    "title": "JSON File"
+                },
+                {
+                    "url": "lesson09/prophets.html",
+                    "title": "List of Prophets"
+                }
+            ]
+        }
+    ]
+}
