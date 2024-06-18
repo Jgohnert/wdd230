@@ -21,6 +21,11 @@
             "birthday": "May 8th"
         },
         {
+            "name": "Joanna",
+            "gender": "female",
+            "birthday": "September 25th"
+        },
+        {
             "name": "Matt",
             "gender": "male",
             "birthday": "September 13th"

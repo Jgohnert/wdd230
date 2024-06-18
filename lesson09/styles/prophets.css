@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    margin: 0%;
+    font-family: sans-serif, Roboto, Arial;
+    background-color: #271d2b;
+}
+
+header {
+    background-color: rgb(55, 51, 68);
+    padding: 10px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+}
+
+section {
+    margin: 2px;
+    padding: 10px;
+    background-color: #d9ccdf;
+    border: 1px solid #79717c;
+    flex-direction: column;
+  }
+
+footer {
+    background-color: rgb(55, 51, 68);
+    padding: 10px;
+    margin-top: 50px;
+    color: white;
+}
