@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joanna Gohnert - WDD 230 - Fairfax Chamber of Commerce Homepage</title>
+    <meta property="og:title" content="Joanna Gohnert - WDD 230 - Fairfax Chamber of Commerce Homepage">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://jgohnert.github.io/wdd230/chamber/images/fairfaxarea.webp">
+    <meta property="og:url" content="https://jgohnert.github.io/wdd230/chamber">
+    <meta name="author" content="Joanna Gohnert">
+    <meta name="description" content="This is Joanna Gohnert's Fairfax Chamber of Commerce Webpage for WDD 230. 
+    It is a site committed to the advancement of local businesses that will ensure positive innovations 
+    and partnerships that will lead to their success.">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link type="text/css" rel="stylesheet" href="styles/base.css">
+    <link type="text/css" rel="stylesheet" href="styles/medium.css">
+    <link type="text/css" rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.ico">
+  </head>
+  <body>
+    <header>
+      <img src="images/chamber-logo.webp" alt="Fairfax Chamber of Commerce logo" width="270">
+      <label class="switch">
+        <input type="checkbox" id="dark-mode">
+        <span class="slider round"></span>
+      </label>
+    </header>
+    <picture>
+      <source srcset="images/replacement-image-small.webp" media="(max-width: 600px)">
+      <source srcset="images/replacement-image-medium.webp" media="(max-width: 900px)">
+      <img id="hero-image" src="images/replacement-image-large2.webp" alt="Fairfax" width="1500">
+    </picture>
+    <div id="size-label"></div>
+    <button id="menu"></button>
+    <div class="info-container">
+      <div class="join">
+        <nav class="navigation">
+          <a href="https://jgohnert.github.io/wdd230/chamber/">Home</a>
+          <a href="#">Membership</a>
+          <a href="https://jgohnert.github.io/wdd230/chamber/discover">Discover</a>
+          <a href="#">About</a>
+        </nav>
+        <p class="summary">
+          The Fairfax Chamber of Commerce is committed to the advancement of
+          local businesses. With the efforts of our members, we will ensure
+          positive innovations through collaborative networking and partnerships
+          that will lead to the success of businesses and the growth of our
+          community.
+        </p>
+        <div class="join-link">
+          <a href="join.html">Join Now</a>
+        </div>
+      </div>
+    </div>
+    <main>
+      <div id="cards"></div>
+    </main>
+    <footer>
+      <p>Joanna Gohnert</p>
+      <p>Contact Information: 507-766-0949</p>
+      <p>WDD 230 - Web Frontend Development Project</p>
+      Last Modification: <span id="lastmodified"></span>
+    </footer>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/dark-mode.js"></script>
+    <script src="scripts/member-list.js"></script>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+{
+    "members": [
+        {
+            "name": "Airway Flight",
+            "address": "19362, 405th St Fairfax MN",
+            "phone": "320-123-1111",
+            "URL": "https://airwayflight.com/",
+            "image": "chamber/images/Airway.webp",
+            "membership": "Silver"
+        },
+        {
+            "name": "Fairfax Market",
+            "address": "68145, 310th St Fairfax MN",
+            "phone": "320-456-2222",
+            "URL": "https://thefairfaxmarket.com/",
+            "image": "chamber/images/fairfax-market.webp",
+            "membership": "Gold"
+        },
+        {
+            "name": "Glacier Glass Water",
+            "address": "61756, 420th St Fairfax MN",
+            "phone": "320-789-3333",
+            "URL": "https://glacierglasswater.com/",
+            "image": "chamber/images/glacier-glass.webp",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Midwest Tech Repair",
+            "address": "10246, 421st St Fairfax MN",
+            "phone": "507-101-4444",
+            "URL": "https://fairfaxmidwesttech.com/",
+            "image": "chamber/images/midwest-Tech.webp",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Roadside Fullservice",
+            "address": "13456, 325th St Fairfax MN",
+            "phone": "507-121-5555",
+            "URL": "https://roadsidefullservice.com/",
+            "image": "chamber/images/roadside-fullservice.webp",
+            "membership": "Silver"
+        },
+        {
+            "name": "Smokey Hollow Cafe",
+            "address": "53895, 340th St Fairfax MN",
+            "phone": "320-141-6666",
+            "URL": "https://smokeyhollowcafe.com/",
+            "image": "chamber/images/smokey-hollow.webp",
+            "membership": "Gold"
+        },
+        {
+            "name": "Sunflower Salon",
+            "address": "11769, 480th St Fairfax MN",
+            "phone": "507-161-7777",
+            "URL": "https://sunflower.com/",
+            "image": "chamber/images/sunflower-salon.webp",
+            "membership": "Gold"
+        }
+    ]
+}
