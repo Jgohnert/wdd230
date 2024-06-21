@@ -15,15 +15,15 @@ const displayMembers = (members) => {
         let companyName = document.createElement("h2");
         let companyAddress = document.createElement("p");
         let companyPhone = document.createElement("p");
-        let companySite = document.createElement("p");
+        let companySite = document.createElement("a");
         let companyMembership = document.createElement("p");
         let companyLogo = document.createElement("img");
         
         companyName.textContent = member.name;
         companyAddress.textContent = `Address: ${member.address}`;
         companyPhone.textContent = `${member.phone}`;
-        companySite.textContent = member.siteUrl;
-   
+        companySite.textContent = member.url;
+        companySite.href = member.url;
         companyMembership.textContent = `Membership Level: ${member.membership}`;
 
         companyLogo.setAttribute("src", member.image);

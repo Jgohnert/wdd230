@@ -4,7 +4,7 @@
             "name": "Airway Flight",
             "address": "19362, 405th St Fairfax MN",
             "phone": "320-123-1111",
-            "url": "https://airwayflight.com/",
+            "url": "https://airwayflight.com",
             "image": "images/Airway.webp",
             "membership": "Silver"
         },
@@ -12,7 +12,7 @@
             "name": "Fairfax Market",
             "address": "68145, 310th St Fairfax MN",
             "phone": "320-456-2222",
-            "url": "https://thefairfaxmarket.com/",
+            "url": "https://thefairfaxmarket.com",
             "image": "images/fairfax-market.webp",
             "membership": "Gold"
         },
@@ -20,7 +20,7 @@
             "name": "Glacier Glass Water",
             "address": "61756, 420th St Fairfax MN",
             "phone": "320-789-3333",
-            "url": "https://glacierglasswater.com/",
+            "url": "https://glacierglasswater.com",
             "image": "images/glacier-glass.webp",
             "membership": "Bronze"
         },
@@ -28,7 +28,7 @@
             "name": "Midwest Tech Repair",
             "address": "10246, 421st St Fairfax MN",
             "phone": "507-101-4444",
-            "url": "https://fairfaxmidwesttech.com/",
+            "url": "https://fairfaxmidwesttech.com",
             "image": "images/midwest-Tech.webp",
             "membership": "Bronze"
         },
@@ -36,7 +36,7 @@
             "name": "Roadside Fullservice",
             "address": "13456, 325th St Fairfax MN",
             "phone": "507-121-5555",
-            "url": "https://roadsidefullservice.com/",
+            "url": "https://roadsidefullservice.com",
             "image": "images/roadside-fullservice.webp",
             "membership": "Silver"
         },
@@ -44,7 +44,7 @@
             "name": "Smokey Hollow Cafe",
             "address": "53895, 340th St Fairfax MN",
             "phone": "320-141-6666",
-            "url": "https://smokeyhollowcafe.com/",
+            "url": "https://smokeyhollowcafe.com",
             "image": "images/smokey-hollow.webp",
             "membership": "Gold"
         },
@@ -52,7 +52,7 @@
             "name": "Sunflower Salon",
             "address": "11769, 480th St Fairfax MN",
             "phone": "507-161-7777",
-            "url": "https://sunflower.com/",
+            "url": "https://sunflower.com",
             "image": "images/sunflower-salon.webp",
             "membership": "Gold"
         }
