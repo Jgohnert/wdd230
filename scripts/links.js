@@ -6,7 +6,7 @@ const linksContainer = document.querySelector("#links");
 async function getLinks() {
         const response = await fetch(linksURL);
         const data = await response.json();
-        const weeks = data.lessons
+        const weeks = data.lessons;
 
         displayLinks(weeks);
 }

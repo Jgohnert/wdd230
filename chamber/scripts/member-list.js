@@ -18,14 +18,16 @@ const displayMembers = (members) => {
         let companySite = document.createElement("p");
         let companyMembership = document.createElement("p");
         let companyLogo = document.createElement("img");
-        companyName.textContent = `${member.name}`;
+        
+        companyName.textContent = member.name;
         companyAddress.textContent = `Address: ${member.address}`;
         companyPhone.textContent = `${member.phone}`;
-        companySite.textContent = `${member.URL}`;
+        companySite.textContent = member.siteUrl;
+   
         companyMembership.textContent = `Membership Level: ${member.membership}`;
+
         companyLogo.setAttribute("src", member.image);
         companyLogo.setAttribute("alt", `Portrait of ${member.name}`);
-
         companyLogo.setAttribute("loading", "lazy");
         companyLogo.setAttribute("width", "350");
         companyLogo.setAttribute("height", "120");
