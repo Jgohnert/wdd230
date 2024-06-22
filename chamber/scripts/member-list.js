@@ -1,6 +1,6 @@
 const membersURL = "https://jgohnert.github.io/wdd230/chamber/data/members.json";
 
-const memberCards = document.querySelector("#cards");
+const memberCards = document.querySelector(".cards");
 
 async function getMembers() {
         const response = await fetch(membersURL);
@@ -24,7 +24,7 @@ const displayMembers = (members) => {
         companyPhone.textContent = `${member.phone}`;
         companySite.textContent = member.url;
         companySite.href = member.url;
-        companyMembership.textContent = `Membership Level: ${member.membership}`;
+        companyMembership.textContent = `${member.membership} Membership`;
 
         companyLogo.setAttribute("src", member.image);
         companyLogo.setAttribute("alt", `Portrait of ${member.name}`);
@@ -33,14 +33,31 @@ const displayMembers = (members) => {
         companyLogo.setAttribute("height", "120");
 
         card.appendChild(companyName);
+        card.appendChild(companyLogo);
+        card.appendChild(companyMembership);
         card.appendChild(companyAddress);
         card.appendChild(companyPhone);
         card.appendChild(companySite);
-        card.appendChild(companyMembership);
-        card.appendChild(companyLogo);
 
         memberCards.appendChild(card);
     });
 }
 
 getMembers();
+
+
+const gridview = document.querySelector("#grid");
+const listview = document.querySelector("#list");
+const display = document.querySelector("article");
+
+gridview.addEventListener("click", () => {
+	display.classList.add("grid");
+	display.classList.remove("list");
+});
+
+listview.addEventListener("click", showListview); 
+
+function showListview() {
+	display.classList.add("list");
+	display.classList.remove("grid");
+}

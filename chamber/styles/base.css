@@ -384,3 +384,39 @@ input[type="submit"]:hover {
 .thankyou-page {
     margin: 150px auto;
 }
+
+.cards {
+    margin: 20px;
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	grid-gap: 5px;
+}
+
+.cards h2 {
+    margin: 0%;
+    padding: 0%;
+}
+
+.cards section {
+    margin-bottom: 10%;
+    padding: 20px;
+    border-radius: 5px;
+    border: solid 1px #73868d;
+    box-shadow: 0 0 8px 5px #8eb3c2;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	margin: 0;
+    text-align: left;
+    font-size: 16px;
+}
+
+
+.list section img {
+	display: none;
+}
