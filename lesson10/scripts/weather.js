@@ -4,7 +4,6 @@ const url = "https://api.openweathermap.org/data/2.5/weather?lat=49.75&lon=6.64&
   const icon = document.querySelector("#weather-icon");
   const caption = document.querySelector("figcaption");
 
-
 async function apiFetch() {
   try {
     const response = await fetch(url);

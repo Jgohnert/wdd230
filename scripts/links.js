@@ -13,20 +13,26 @@ async function getLinks() {
 
 const displayLinks = (weeks) => {
     weeks.forEach((lesson) => {
-        let linksList = document.createElement("ul");
-        lesson.links.forEach((link) => {
-            let lessonList = document.createElement("li");
-            let linkList = document.createElement("a");
+        let lessonList = document.createElement("li");
+        let lessonTitle = document.createTextNode(`Lesson ${lesson.lesson} - `);
 
-            linkList.textContent = `Lesson ${lesson.lesson} - ${link.title}`;
-            linkList.href = `${baseURL}${link.url}`;
+        lessonList.appendChild(lessonTitle);
+
+        lesson.links.forEach((link) => {
+            let linkList = document.createElement("a");
+            linkList.href = link.url.startsWith('http') ? link.url : baseURL + link.url;
+            linkList.textContent = link.title;
             linkList.target = "_blank";
 
             lessonList.appendChild(linkList);
-            linksList.appendChild(lessonList);
+
+            if (lesson.links.length > 1 && lesson.links.indexOf(link) < lesson.links.length - 1) {
+                let separatorBar = document.createTextNode(" | ");
+                lessonList.appendChild(separatorBar);
+            }
         });
 
-        linksContainer.appendChild(linksList);
+        linksContainer.appendChild(lessonList);
     });
 }
 

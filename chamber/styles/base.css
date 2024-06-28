@@ -198,7 +198,7 @@ h2 {
     padding: 2rem;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    margin: 10% 16% 4% 16%;
+    margin: 15% 16% 4% 16%;
     height: 100px;
     font-weight: 600;
     font-family: "Raleway", sans-serif;
@@ -221,7 +221,7 @@ h2 {
     position: absolute;
     font-family: "Raleway", sans-serif;
     font-weight: 600;
-    margin: 10px;
+    margin: 10px 20px;
 }
 
 .spotlight {
@@ -247,17 +247,60 @@ h2 {
     color: white;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    max-width: 800px;
+    max-width: 1000px;
     padding: 10px;
     margin: auto;
+    margin-top: 200px;
     border-top: solid 2px rgb(192, 192, 192);
     border-left: solid 2px rgb(192, 192, 192);
     border-right: solid 2px rgb(192, 192, 192);
     font-weight: 200;
 }
 
-h4 {
-    margin: 10px;
+#banner-button {
+    font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: black;
+ 	position: absolute;
+    right: 0.25rem;
+    margin-top: 1px;
+}
+
+#banner-button::before {
+	content: "✖";
+    background-color: white;
+    padding: 0px 4px;
+    border: solid 1px #999;
+    
+}
+
+#banner {
+    background-color: #8eb3c2;
+    padding: 50px;
+    border: solid 1px #575757;
+    font-weight: 300;
+    border-radius: 3px;
+    margin: auto 10px;
+}
+
+#forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    align-items: center;
+}
+
+.todays-weather {
+    grid-row: 2;
+}
+
+#forecast h5 {
+    grid-column: 2/5;
+}
+
+#forecast div {
+    font-size: 14px;
 }
 
 footer {
@@ -284,6 +327,7 @@ div ~ h1 {
 .discover-main-grid {
     display: grid;
     grid-template-columns: 1fr;
+    margin-bottom: 100px;
 }
 
 #left-sidebar {

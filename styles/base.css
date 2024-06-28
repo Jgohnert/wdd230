@@ -125,8 +125,23 @@ li {
     
 }
 
-#weather {
-    margin-bottom: 10%;
+.weather {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#temp {
+    padding-right: 5px;
+}
+
+figcaption {
+    padding: 0px 60px 0px 5px;
+}
+
+#site-visits {
+    margin-top: 50%;
 }
 
 .maps {

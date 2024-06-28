@@ -10,4 +10,13 @@
 		transition: 0.1s;
 	}
 
+	#banner {
+		margin: auto 200px;
+	}
+
+	#banner-button::before {
+		position: absolute;
+    	right: 12.4rem;
+	}
+
 }
