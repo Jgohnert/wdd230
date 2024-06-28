@@ -20,7 +20,7 @@ const displayLinks = (weeks) => {
 
         lesson.links.forEach((link) => {
             let linkList = document.createElement("a");
-            linkList.href = link.url.startsWith('http') ? link.url : baseURL + link.url;
+            linkList.href = link.url.startsWith("http") ? link.url : baseURL + link.url;
             linkList.textContent = link.title;
             linkList.target = "_blank";
 
