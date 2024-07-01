@@ -48,7 +48,7 @@ getMembers();
 
 const gridview = document.querySelector("#grid");
 const listview = document.querySelector("#list");
-const display = document.querySelector("article");
+const display = document.querySelector(".cards");
 
 gridview.addEventListener("click", () => {
 	display.classList.add("grid");
