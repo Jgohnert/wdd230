@@ -307,8 +307,21 @@ footer {
     background: #01295f;
     color: white;
     padding: 1rem;
-    text-align: center;
+    text-align: left;
     font-size: 12px; 
+    align-items: center;
+}
+
+.footer-info {
+    margin-left: 2%;
+}
+
+.footer-social {
+    margin-left: 8px;
+}
+
+.footer-social img {
+    margin: 5px;
 }
 
 div ~ h1 {
