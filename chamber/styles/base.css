@@ -225,28 +225,17 @@ h2 {
 }
 
 .spotlight h3 {
-    position: absolute;
+    text-align: left;
     font-family: var(--header-font);
     font-weight: var(--fontweight);
-    margin: 10px 20px;
+    margin: 100px 20px;
 }
 
-.spotlight {
+.spotlight div {
     overflow-x: auto;
     padding-bottom: 10px; 
-    display: flex; 
-    margin-top: 200px;
-    margin-bottom: 50px;
-}
-
-.first-logo {
-    margin-left: 150px;
-}
-
-.spotlight-card {
-    padding: 5px;
-    margin-top: 40px;
-    flex: 0 0 auto;
+    display: flex;
+    margin: 80px 50px 140px 140px;
 }
 
 .weather-card {
