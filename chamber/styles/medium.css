@@ -38,13 +38,13 @@
 	}
 
 	.benefits {
-		box-shadow: 1px 2px 4px 2px #8eb3c2;
+		box-shadow: 1px 2px 4px 2px var(--secondary-color);
 	}
 
 	.list section {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 		align-items: center;
-		font-size: 16px;
+		font-size: var(--small-fontsize);
 	}
 }

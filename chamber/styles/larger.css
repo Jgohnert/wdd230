@@ -6,7 +6,7 @@
 
 	#discover-img img:hover {
 		transform: scale(1.01);
-		box-shadow: 0 0 8px 5px #8eb3c2;
+		box-shadow: 0 0 8px 5px var(--secondary-color);
 		transition: 0.1s;
 	}
 
