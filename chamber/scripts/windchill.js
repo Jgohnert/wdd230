@@ -20,9 +20,7 @@ async function apiFetch() {
             throw new Error(`Failed to fetch data. Response: ${response.status}, ForecastResponse: ${forecastResponse.status}`);
       }
     } 
-    catch (error) {
-        console.log(error);
-    }
+    catch (error) {}
 }
 
 function displayWeather(currentData, forecastData) {

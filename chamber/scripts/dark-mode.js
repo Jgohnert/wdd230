@@ -1,4 +1,4 @@
-const darkmode = document.querySelector("#dark-mode");
+const darkmode = document.querySelector(".dark-mode");
 const body = document.querySelector("body");
 const eventCards = document.querySelectorAll(".card");
 const joinButton = document.querySelector(".join-link")
