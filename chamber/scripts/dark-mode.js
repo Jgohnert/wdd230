@@ -9,25 +9,16 @@ darkmode.addEventListener("click", () => {
     joinButton.classList.toggle("dark-mode");
     infoCard.classList.toggle("dark-mode");
 
-    eventCards.forEach(card => {
-        card.classList.toggle("dark-mode");
-    });
-
     if (body.classList.contains("dark-mode")) {
-        body.style.background = "#000";
+        body.style.background = "#071631";
         body.style.color = "#fff";
         joinButton.style.background = "#fff";
         infoCard.style.background = "#01295f";
-        eventCards.forEach(card => {
-            card.style.background = "#575757";
-        });
-    } else {
+    } 
+    else {
         body.style.background = "#fff";
         body.style.color = "#000";
         joinButton.style.background = "none";
         infoCard.style.background = "#8eb3c2";
-        eventCards.forEach(card => {
-            card.style.background = "#b9b9b9";
-        });
     }
 });

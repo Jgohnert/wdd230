@@ -16,9 +16,17 @@
     #events {
         display: flex;
     }
-	
-	h1 {
-		margin-top: 170px;
+
+	.spotlight div {
+		overflow-x: auto;
+		padding-bottom: 10px; 
+		display: flex;
+		flex-direction: row;
+		margin: 80px 50px 140px 140px;
+	}
+
+	.spotlight h3 {
+		text-align: left;
 	}
 
 	.discover-main-grid {

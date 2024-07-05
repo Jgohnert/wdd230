@@ -9,10 +9,11 @@
     --large-fontsize: 18px;
     --primary-color: #01295f;
     --secondary-color: #8eb3c2;
-    --third-color: #fff;
-    --fourth-color: #bbbbbb;
+    --accent-color1: #fff;
+    --accent-color2: #bbbbbb;
+    --accent-color3: #071631;
     --border-radius: 4px;
-    --border: solid 1px var(--fourth-color);
+    --border: solid 1px var(--accent-color2);
 }
 
 * {
@@ -60,7 +61,7 @@ header img {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--fourth-color);
+    background-color: var(--accent-color2);
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -72,7 +73,7 @@ header img {
     width: 18px;
     left: 3px;
     bottom: 4px;
-    background-color: var(--third-color);
+    background-color: var(--accent-color1);
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -118,7 +119,7 @@ input:checked + .slider:before {
     max-width: 600px;
     padding: 30px;
     margin: 20px auto;
-    
+    border: var(--border);
 }
 
 .join-link {
@@ -151,7 +152,7 @@ input:checked + .slider:before {
 	font-size: 2.3rem;
 	border: 0;
 	background: none;
-	color: var(--third-color);
+	color: var(--accent-color1);
  	position: absolute;
 	top: 1.2rem;
 	left: 0.1rem;
@@ -182,7 +183,7 @@ input:checked + .slider:before {
 }
 
 .navigation a:hover {
-	color: var(--third-color);
+	color: var(--accent-color1);
     width: 150px;
     border-radius: var(--border-radius);
     background-color: rgb(0, 0, 0, 0.5);
@@ -199,8 +200,15 @@ main {
 }
 
 h1 {
-    margin-top: 100px;
+    position: relative;
     font-family: var(--header-font);
+    background-color: var(--accent-color3);
+    border-radius: var(--border-radius);
+    color: var(--accent-color1);
+    max-width: 600px;
+    padding: 30px;
+    margin: 20px auto;
+    border: var(--border);
 }
 
 h2 {
@@ -213,44 +221,18 @@ h2 {
     font-family: var(--header-font);
 }
 
-.card {
-    background-color: var(--third-color);
-    padding: 2rem;
-    max-width: 400px;
-    margin: 2px auto;
-}
-
-.card h2 {
-    margin: 15px;
-}
-
 .spotlight h3 {
-    text-align: left;
+    text-align: center;
     font-family: var(--header-font);
     font-weight: var(--fontweight);
     margin: 100px 20px;
 }
 
 .spotlight div {
-    overflow-x: auto;
-    padding-bottom: 10px; 
+    overflow-y: auto;
+    max-height: 200px;
     display: flex;
-    margin: 80px 50px 140px 140px;
-}
-
-.weather-card {
-    background-color: #575757;
-    color: var(--third-color);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    max-width: 1000px;
-    padding: 10px;
-    margin: auto;
-    margin-top: 200px;
-    border-top: var(--border);
-    border-left: var(--border);
-    border-right: var(--border);
-    font-weight: 200;
+    flex-direction: column;
 }
 
 #banner-button {
@@ -265,7 +247,7 @@ h2 {
 
 #banner-button::before {
 	content: "✖";
-    background-color: var(--third-color);
+    background-color: var(--accent-color1);
     padding: 0px 4px;
     border: var(--border);
     border-radius: var(--border-radius);
@@ -281,7 +263,24 @@ h2 {
     margin: auto 10px;
 }
 
+.weather-card {
+    background-color: var(--accent-color3);
+    color: var(--accent-color1);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    max-width: 1000px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 200px;
+    border-top: var(--border);
+    border-left: var(--border);
+    border-right: var(--border);
+    font-weight: 200;
+}
+
 #forecast {
+    background-image: linear-gradient(var(--primary-color), var(--accent-color3));
+    border-radius: var(--border-radius);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 2fr;
@@ -302,7 +301,7 @@ h2 {
 
 footer {
     background: var(--primary-color);
-    color: var(--third-color);
+    color: var(--accent-color1);
     padding: 1rem;
     text-align: left;
     font-size: var(--small-fontsize); 
@@ -317,8 +316,12 @@ footer {
     margin-left: 8px;
 }
 
+
+
 .footer-social img {
     margin: 5px;
+    border-radius: var(--border-radius);
+    border: var(--border);
 }
 
 div ~ h1 {
@@ -329,6 +332,20 @@ div ~ h1 {
     padding: 50px;
 }
 
+.card {
+    background-image: linear-gradient(var(--primary-color), var(--accent-color3));
+    padding: 1rem;
+    max-width: 400px;
+    margin: 5% 10%;
+    border-radius: var(--border-radius);
+    border: var(--border);
+    color: var(--accent-color1);
+}
+
+.card h2 {
+    margin: 15px;
+}
+
 .card img {
     width: 100%;
     height: auto;
@@ -336,7 +353,7 @@ div ~ h1 {
 
 .discover-main-grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 2fr;
     margin-bottom: 100px;
 }
 
