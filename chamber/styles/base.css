@@ -353,7 +353,7 @@ div ~ h1 {
 
 .discover-main-grid {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr;
     margin-bottom: 100px;
 }
 
@@ -457,7 +457,7 @@ input[type="submit"]:hover {
 }
 
 .cards {
-    margin: 20px;
+    margin: 20px auto;
     display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 	grid-gap: 5px;
@@ -474,6 +474,10 @@ input[type="submit"]:hover {
     border-radius: var(--border-radius);
     border: var(--border);
     box-shadow: 0 0 8px 5px var(--secondary-color);
+}
+
+.cards img {
+    width: auto;
 }
 
 .list {
