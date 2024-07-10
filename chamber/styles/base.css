@@ -308,6 +308,10 @@ footer {
     align-items: center;
 }
 
+footer a {
+    text-decoration: none;
+}
+
 .footer-info {
     margin-left: 2%;
 }
@@ -315,8 +319,6 @@ footer {
 .footer-social {
     margin-left: 8px;
 }
-
-
 
 .footer-social img {
     margin: 5px;
