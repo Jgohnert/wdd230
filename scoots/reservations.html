@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joanna Gohnert - WDD 230 - Scoots Motor Rental Reservation Form</title>
+    <meta name="description" content="The Scoots Motor Rental reservation form provides a
+    way for users to reserve a scooter or jeep for their exploring needs. Renting one of 
+    our vehicles will be possible through the user information filled out on this form.">
+    <meta name="author" content="Joanna Gohnert">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+  </head>
+  <body>
+    <header>
+      <h1>Scoots Motor Scooter Rental Reservations</h1>
+      <img src="images\scoots-logo.png" loading="lazy" width="100" height="100">
+    </header>
+    <picture>
+        <source srcset="images\beach-hero-image.jpg" media="(max-width: 600px)">
+        <source srcset="images\beach-hero-image.jpg" media="(max-width: 900px)">
+        <img class="hero-image" src="images\beach-hero-image.jpg" alt="Fairfax" width="500">
+    </picture>
+    <button class="menu" aria-label="Menu"></button>
+    <nav>
+        <a href="https://jgohnert.github.io/wdd230/scoots/">Home</a>
+        <a href="https://jgohnert.github.io/wdd230/scoots/rentals">Rentals</a>
+        <a href="https://jgohnert.github.io/wdd230/scoots/reservations">Reservations</a>
+        <a href="https://jgohnert.github.io/wdd230/scoots/contact">Contact Informattion</a>
+    </nav>
+  </header>
+    <main>
+      <h2>Reserve one of our scooters or jeeps</h2>
+      <p>rental agreement information</p>
+      <div id="Form-page">
+        <form method="get" class="reservation-form">
+          <fieldset>
+            <legend>Reservation Form</legend>
+            <label>Reservation Date* <input type="date" name="resDate" id="resDate" required></label>
+            <label><input type="radio" name="rent-length" value="Half Day" required>Rent Half Day - 3 hrs</label>
+            <label><input type="radio" name="rent-length" value="Full Day" required>Rent Full Day</label>
+            <label><input type="radio" name="vehicle-type" value="Metro Scooter" required>Honda Metro Scooter - $30 or $20 half day</label>
+            <label><input type="radio" name="vehicle-type" value="Dio Scooter" required>Honda Dio Scooter - $40 or $30 half day</label>
+            <label><input type="radio" name="vehicle-type" value="PCX150 Scooter" required>Honda PCX150 Scooter - $50 or $40 half day</label>
+            <label><input type="radio" name="vehicle-type" value="Pioneer ATV" required>Honda Pioneer ATV - $70 or $50 half day</label>
+            <label><input type="radio" name="vehicle-type" value="Jeep Wrangler 4 door" required>4 door Jeep Wrangler with a/c - $100 or $70 half day</label>
+            <label><input type="radio" name="vehicle-type" value="Jeep Wrangler 2 door" required>2 door Jeep Wrangler - $85 or $60 half day</label>
+            <label>Cruise Line if Applicable<input type="text" name="cruise" id="cruise"></label>
+            <textarea name="accommodations" id="accommodations" placeholder="Any Special accommodations, comments or drop-off request?"></textarea>
+          </fieldset>
+          <fieldset>
+            <legend>Your Information</legend>
+            <label>Your First and Last Name* <input type="text" name="fullname" id="fullname" required></label>
+            <label>Mobile Phone Number* <input type="tel" name="mob-number" id="mob-number" required></label>
+            <label>Phone Number <input type="tel" name="hom-number" id="hom-number"></label>
+            <label>Email* <input type="email" name="email" id="email" placeholder="youremail@gmail.com" required></label>
+            <label>Home State or Country <input type="text" name="country" id="country"></label>
+          </fieldset>
+          <input type="submit" value="Reserve Your Rental">
+        </form>
+      </div>
+      <div>
+        <p>See what's going on in our community</p>
+        <a href="https://facebook.com" target="_blank">
+            <img src="images/facebook_logo.png" alt="facebook icon" loading="lazy" width="50" height="50">
+        </a>
+        <a href="https://x.com" target="_blank">
+            <img src="images/twitter_logo.png" alt="instagram icon" width="50" height="50">
+        </a>
+        <a href="https://instagram.com" target="_blank">
+            <img src="images/instagram-logo.png" alt=" icon" width="50" height="50">
+        </a>
+      </div>
+    </main>
+    <footer>
+      <p>Joanna Gohnert | Scoots Motor Rental Company</p>
+    </footer>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

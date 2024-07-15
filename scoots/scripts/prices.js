@@ -1,0 +1,1 @@
+const pricesURL = "https://jgohnert.github.io/wdd230/scoots/data/prices.json";
