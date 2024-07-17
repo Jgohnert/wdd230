@@ -3,7 +3,7 @@
         {
             "name": "Honda Metro Scooter",
             "maxPersons": 1,
-            "image": "images/scooter-1-seater.jpg",
+            "image": "images/scooter-1-seater.webp",
             "reservation": [
                 {
                     "halfDay": "$20"
@@ -24,7 +24,7 @@
         {
             "name": "Honda Dio Scooter",
             "maxPersons": 2,
-            "image": "images/scooter-2-seater1.jpg",
+            "image": "images/scooter-2-seater1.webp",
             "reservation": [
                 {
                     "halfDay": "$30"
@@ -66,7 +66,7 @@
         {
             "name": "Honda Pioneer ATV",
             "maxPersons": 4,
-            "image": "images/atv-4-seater.jpg",
+            "image": "images/atv-4-seater.webp",
             "reservation": [
                 {
                     "halfDay": "$50"
@@ -87,7 +87,7 @@
         {
             "name": "Jeep Wrangler - 4 door with a/c",
             "maxPersons": 5,
-            "image": "images/jeep-5-seater.jpg",
+            "image": "images/jeep-5-seater.webp",
             "reservation": [
                 {
                     "halfDay": "$70"
@@ -108,7 +108,7 @@
         {
             "name": "Jeep Wrangler - 2 door",
             "maxPersons": 4,
-            "image": "images/jeep-4-seater.jpg",
+            "image": "images/jeep-4-seater.webp",
             "reservation": [
                 {
                     "halfDay": "$60"

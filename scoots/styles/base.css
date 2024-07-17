@@ -1,7 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
 :root {
     --color1: #D72638; /*white text*/
     --color2: #3F88C5; /*black text*/
     --color3: #F49D37; /*black text*/
     --color4: #140F2D; /*white text*/
     --color5: #F98D8B; /*black text*/
+    --main-font: "Signika Negative", sans-serif, serif;
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+header {
+    background-color: var(--color3);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    border-bottom: solid 5px var(--color5);
+}
+
+header img {
+    margin-right: 40px;
+    background-color: var(--color4);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+	flex-direction: column;
+    border-bottom: solid 2px var(--color1);
+    width: 100%;
+    text-align: center;
+}
+
+nav a {
+	padding: 2rem;
+	text-decoration: none;
+	color: black;
+    font-size: 20px;
+    border: solid 2px var(--color1);
+    border-bottom: none;
+}
+
+nav a:hover {
+    background-color: var(--color4);
+    color: var(--color2);
+}
+
+picture {
+    background-color: var(--color5);
+}
+
+.hero-image {
+    width: 100%;
+}
+
+main {
+    background-image: linear-gradient(var(--color2), var(--color3), var(--color2));
+    text-align: center;
+}
+
+h2 {
+    padding-top: 50px;
+    margin: 0%;
+    margin-bottom: 10%;
+}
+
+#reservation {
+    padding: 2rem;
+	text-decoration: none;
+	color: black;
+    font-size: 20px;
+    border-bottom: none;
+}
+
+#reservation:hover {
+    background-color: var(--color4);
+    color: var(--color2);
+    border: solid 2px var(--color1);
+}
+
+#message-button {
+    position: absolute;
+    right: 102px;
+}
+
+#message-button::before {
+    content: "✖";
+}
+
+#message {
+    background-color: var(--color4);
+    color: var(--color2);
+    margin: 10% 100px;
+    padding-bottom: 20px;
+    border: solid 2px var(--color1);
+}
+
+#message p {
+    padding-top: 30px;
+}
+
+h3 {
+    margin-top: 5rem;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+h4 {
+    margin-top: 5rem;
+}
+
+.main-grid {
+    padding-bottom: 100px;
+}
+
+.main-grid img {
+    background-color: var(--color4);
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.main-grid img:hover {
+    transform: scale(1.1);
+    border: solid 2px var(--color1);
+    margin-bottom: 16px;
+}
+
+.main-grid ul {
+    margin: auto 10%;
+}
+
+.main-grid li {
+    margin: 1rem;
+    text-align: left;
+}
+
+.social-container {
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: absolute;
+    background-color: var(--color2);
+    width: 90%;
+    left: 5%;
+}
+
+.social-container img {
+    background-color: var(--color4);
+    border: solid 2px var(--color1);
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.social-media {
+    margin-top: 40px;
+}
+
+.social-media a {
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    background-color: var(--color3);
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+footer div {
+    width: 100%;
 }

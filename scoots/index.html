@@ -16,73 +16,90 @@
   </head>
   <body>
     <header>
-      <h1>Scoots Motor Scooter Rental</h1>
-      <img src="images\scoots-logo.png" alt="scoots logo" width="100" height="100">
+      <img src="images\scoots-logo.webp" alt="scoots logo" width="100" height="100">
+      <h1>Scoots Motor Rental Company</h1>
+      <nav>
+        <a href="https://jgohnert.github.io/wdd230/scoots/">Home</a>
+        <a href="https://jgohnert.github.io/wdd230/scoots/rentals">Rentals</a>
+        <a href="https://jgohnert.github.io/wdd230/scoots/reservations">Reservations</a>
+        <a href="https://jgohnert.github.io/wdd230/scoots/contact">Contact</a>
+      </nav>
     </header>
-    <picture>
-      <source srcset="images\beach-hero-image.jpg" media="(max-width: 600px)">
-      <source srcset="images\beach-hero-image.jpg" media="(max-width: 900px)">
-      <img class="hero-image" src="images\beach-hero-image.jpg" alt="Fairfax" width="500">
-    </picture>
-    <button class="menu" aria-label="Menu"></button>
-    <nav>
-      <a href="https://jgohnert.github.io/wdd230/scoots/">Home</a>
-      <a href="https://jgohnert.github.io/wdd230/scoots/rentals">Rentals</a>
-      <a href="https://jgohnert.github.io/wdd230/scoots/reservations">Reservations</a>
-      <a href="https://jgohnert.github.io/wdd230/scoots/contact">Contact Informattion</a>
-    </nav>
-    <h2>Make a rental reservation today</h2>
-    <a href="https://jgohnert.github.io/wdd230/scoots/reservations">Reservations</a>
-    <button id="message-button" aria-label="Hide Message"></button>
+    <main>
+      <h2>Make a rental reservation today</h2>
+      <a id="reservation" href="https://jgohnert.github.io/wdd230/scoots/reservations">Make Reservation</a>
       <div id="message">
+        <button id="message-button" aria-label="Hide Message"></button>
         <p>Max temperature for today</p>
         <p id="max-temp"></p>
       </div>
-    <main>
-      <h3>Types of Rentals</h3>
+      <h3 id="hThree">Types of Rentals</h3>
       <div class="main-grid">
         <section>
           <h4>Honda Motor Scooters</h4>
+          <a href="https://jgohnert.github.io/wdd230/scoots/rentals">
+            <img src="images/scooter-2-seater1.webp" alt="scooter" loading="lazy" width="100" height="100"/>
+          </a>
           <ul>
             <li>Honda Metropolitan (49cc) - 1 person</li>
             <li>Honda Dio (110cc) - 2 person</li>
             <li>Honda PCX150 (149cc) - 2 person</li>
           </ul>
-          <p>Side-by-Side ATVs</p>
+        </section>
+        <section>
+          <h4>Side-by-Side ATVs</h4>
+          <a href="https://jgohnert.github.io/wdd230/scoots/rentals">
+            <img src="images/atv-4-seater.webp" alt="AVT" loading="lazy" width="100" height="100"/>
+          </a>
           <ul>
             <li>Honda Pioneer 1000 - 4 person</li>
           </ul>
         </section>
         <section>
           <h4>Jeeps</h4>
+          <a href="https://jgohnert.github.io/wdd230/scoots/rentals">
+            <img src="images/jeep-4-seater.webp" alt="Jeep" loading="lazy" width="100" height="100"/>
+          </a>
           <ul>
             <li>Jeep Wrangler - 4 door manuel with A/C - 5 person</li>
             <li>Jeep Wrangler - 2 door - open air - manuel - 4 person</li>
           </ul>
         </section>
       </div>
-      <div>
-        <p>See what's going on in our community</p>
-        <a href="https://facebook.com" target="_blank">
-          <img src="images/facebook_logo.png" alt="facebook icon" width="50" height="50">
-        </a>
-        <a href="https://x.com" target="_blank">
-          <img src="images/twitter_logo.png" alt="instagram icon" width="50" height="50">
-        </a>
-        <a href="https://instagram.com" target="_blank">
-          <img src="images/instagram-logo.png" alt=" icon" width="50" height="50">
-        </a>
+      <div class="social-container">
+        <p>Check out our community</p>
+        <div class="social-media">
+          <a href="https://facebook.com" target="_blank">
+            <img src="images/facebook_logo.webp" alt="facebook icon" width="50" height="50">
+          </a>
+          <a href="https://x.com" target="_blank">
+            <img src="images/twitter_logo.webp" alt="instagram icon" width="50" height="50">
+          </a>
+          <a href="https://instagram.com" target="_blank">
+            <img src="images/instagram-logo.webp" alt=" icon" width="50" height="50">
+          </a>
+        </div>
       </div>
     </main>
+    <picture>
+      <source srcset="images\beach-hero-image-small.webp" media="(max-width: 639px)">
+      <source srcset="images\beach-hero-image-medium.webp" media="(max-width: 1279px)">
+      <img class="hero-image" src="images\beach-hero-image-large.webp" alt="beach" loading="lazy" width="1000">
+    </picture>
     <footer>
-      <p>Joanna Gohnert | Scoots Motor Rental Company</p>
-      <div class="weather">
+      <div>
+        <p>Joanna Gohnert | Scoots Motor Rental Company</p>
+      </div>
+      <div>
         <p>Weather</p>
         <div id="today-forecast"></div>
+      </div>
+      <div>
         <p>Next day forecast</p>
         <div id="tomorrow-forecast"></div>
       </div>
     </footer>
     <script src="scripts/weather.js"></script>
+    <script src="scripts/message.js"></script>
   </body>
 </html>

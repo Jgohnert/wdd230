@@ -1,0 +1,42 @@
+@media (min-width: 80em) {
+
+    header {
+        text-align: center;
+        padding: 4%;
+    }
+
+    header h1 {
+        margin: 10px;
+    }
+    
+    nav {
+		flex-direction: row;
+        border-left: solid 2px var(--color1);
+        
+	}
+
+    nav a {
+        width: 100%;
+        min-width: 100px;
+        border-left: none;
+	}
+
+    main {
+        position: absolute;
+        width: 90%;
+        margin: 5% 5%;
+    }
+
+    h2 {
+        margin-bottom: 5%;
+    }
+
+    .main-grid ul {
+        padding-left: 15%;
+    }
+
+    .social-container {
+        width: 60%;
+        left: 20%
+    }
+}

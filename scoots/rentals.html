@@ -15,39 +15,34 @@
   </head>
   <body>
     <header>
-        <h1>Scoots Motor Scooter Rentals</h1>
-        <img src="images\scoots-logo.png" width="100" height="100">
-      </header>
-      <picture>
-        <source srcset="images\beach-hero-image.jpg" media="(max-width: 600px)">
-        <source srcset="images\beach-hero-image.jpg" media="(max-width: 900px)">
-        <img class="hero-image" src="images\beach-hero-image.jpg" alt="Fairfax" width="500">
-      </picture>
-      <button class="menu" aria-label="Menu"></button>
+      <img src="images\scoots-logo.webp" alt="scoots logo" width="100" height="100">
+      <h1>Scoots Motor Rental Company</h1>
       <nav>
         <a href="https://jgohnert.github.io/wdd230/scoots/">Home</a>
         <a href="https://jgohnert.github.io/wdd230/scoots/rentals">Rentals</a>
         <a href="https://jgohnert.github.io/wdd230/scoots/reservations">Reservations</a>
-        <a href="https://jgohnert.github.io/wdd230/scoots/contact">Contact Informattion</a>
+        <a href="https://jgohnert.github.io/wdd230/scoots/contact">Contact</a>
       </nav>
     </header>
     <main>
-      <table>
-          <caption>Rental Prices</caption>
-          <thead>
-            <tr>
-              <th>Scoots Motor Rentals</th>
-            </tr>
+      <div class="main-grid">
+        <table>
+            <caption>Rental Prices</caption>
+            <thead>
               <tr>
-                <th scope="col">type</th>
-                <th scope="col">Max Seats</th>
-                <th scope="col">Reservation</th>
-                <th scope="col">Walk In</th>
+                <th>Scoots Motor Rentals</th>
               </tr>
-          </thead>
-          <tbody id="table-body">
-          </tbody>
+                <tr>
+                  <th scope="col">type</th>
+                  <th scope="col">Max Seats</th>
+                  <th scope="col">Reservation</th>
+                  <th scope="col">Walk In</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+            </tbody>
         </table>
+      </div>
         <div id="rentals"></div>
         <div>
           <p>See what's going on in our community</p>

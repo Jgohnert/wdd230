@@ -1,0 +1,24 @@
+@media (min-width: 40em) {
+
+    header {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    header img {
+        margin: 5px;
+    }
+
+    main {
+        margin-top: 0%;
+    }
+
+    .main-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .main-grid ul {
+        margin: auto 5% auto 0%;
+    }
+}
