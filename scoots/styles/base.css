@@ -60,6 +60,10 @@ picture {
     width: 100%;
 }
 
+.background-img {
+    display: none;
+}
+
 main {
     background-image: linear-gradient(var(--color2), var(--color3), var(--color2));
     text-align: center;
@@ -112,7 +116,7 @@ h3 {
 
 .main-grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 h4 {
@@ -160,15 +164,48 @@ h4 {
     border: solid 2px var(--color1);
     padding: 10px;
     border-radius: 50%;
-    margin: 10px;
+    
 }
 
-.social-media {
+.social-media img {
     margin-top: 40px;
+    margin: 10px;
 }
 
 .social-media a {
     text-decoration: none;
+}
+
+table {
+    margin: 0% 10% 10% 10%;
+    border-collapse: collapse;
+}
+
+caption {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+tr:first-child th {
+    padding: 20px;
+    font-size: 20px;
+    border-bottom: solid 2px var(--color1);
+}
+
+thead {
+    background-color: var(--color4);
+    color: var(--color2);
+    border: solid 2px var(--color1);
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+    width: 10%;
+    padding: 10px;
+    border: solid 2px var(--color1);
 }
 
 footer {

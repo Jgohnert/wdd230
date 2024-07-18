@@ -15,27 +15,31 @@
   </head>
   <body>
     <header>
-      <h1>Scoots Motor Scooter Rental Reservations</h1>
-      <img src="images\scoots-logo.png" loading="lazy" width="100" height="100">
+      <img src="images\scoots-logo.webp" alt="scoots logo" width="100" height="100">
+      <h1>Scoots Motor Rental Reservation</h1>
+      <nav>
+        <a href="https://jgohnert.github.io/wdd230/scoots/">Home</a>
+        <a href="https://jgohnert.github.io/wdd230/scoots/rentals">Rentals</a>
+        <a href="https://jgohnert.github.io/wdd230/scoots/reservations">Reservations</a>
+        <a href="https://jgohnert.github.io/wdd230/scoots/contact">Contact</a>
+      </nav>
     </header>
-    <picture>
-      <source srcset="images\beach-hero-image.jpg" media="(max-width: 600px)">
-      <source srcset="images\beach-hero-image.jpg" media="(max-width: 900px)">
-      <img class="hero-image" src="images\beach-hero-image.jpg" alt="Fairfax" width="500">
-    </picture>
-    <button class="menu" aria-label="Menu"></button>
-    <nav>
-      <a href="https://jgohnert.github.io/wdd230/scoots/">Home</a>
-      <a href="https://jgohnert.github.io/wdd230/scoots/rentals">Rentals</a>
-      <a href="https://jgohnert.github.io/wdd230/scoots/reservations">Reservations</a>
-      <a href="https://jgohnert.github.io/wdd230/scoots/contact">Contact Informattion</a>
-    </nav>
   </header>
     <main>
       <h2>Reserve one of our scooters or jeeps</h2>
-      <p>rental agreement information</p>
+      <p>We thank you for considering reserving one of vehicles. Before you begin your 
+        form, A $50 security deposit is required to confirm reservations. After your 
+        reservation is complete, a valid drivers license is required in hand at the 
+        time of rental. No one under the age of 12 years of age are allowed to ride on 
+        the scooters. Be aware that fuel charge is not included with your rental.
+        Unlimited mileage, and liability insurance is included.
+        Damage insurance is available for purchase.
+        Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals is available to all
+        our renters.
+        Please pay via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.
+        Rentals may be returned to either physical location.</p>
       <div id="Form-page">
-        <form method="get" class="reservation-form">
+        <form method="get" class="main-grid">
           <fieldset>
             <legend>Reservation Form</legend>
             <label>Reservation Date* <input type="date" name="resDate" id="resDate" required></label>
@@ -61,21 +65,25 @@
           <input type="submit" value="Reserve Your Rental">
         </form>
       </div>
+    </main>
+    <picture class="background-img">
+      <img class="hero-image" src="images\beach-hero-image-large.webp" alt="beach" loading="lazy" width="1000">
+    </picture>
+    <footer>
       <div>
-        <p>See what's going on in our community</p>
+        <p>Joanna Gohnert | Scoots Motor Rental Company</p>
+      </div>
+      <div class="social-media">
         <a href="https://facebook.com" target="_blank">
-          <img src="images/facebook_logo.png" alt="facebook icon" loading="lazy" width="50" height="50">
+          <img src="images/facebook_logo.webp" alt="facebook icon" width="50" height="50">
         </a>
         <a href="https://x.com" target="_blank">
-          <img src="images/twitter_logo.png" alt="instagram icon" width="50" height="50">
+          <img src="images/twitter_logo.webp" alt="instagram icon" width="50" height="50">
         </a>
         <a href="https://instagram.com" target="_blank">
-          <img src="images/instagram-logo.png" alt=" icon" width="50" height="50">
+          <img src="images/instagram-logo.webp" alt=" icon" width="50" height="50">
         </a>
       </div>
-    </main>
-    <footer>
-      <p>Joanna Gohnert | Scoots Motor Rental Company</p>
     </footer>
     <script src="scripts/script.js"></script>
   </body>

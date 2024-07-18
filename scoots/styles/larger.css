@@ -21,6 +21,10 @@
         border-left: none;
 	}
 
+    .background-img {
+        display: block;
+    }
+
     main {
         position: absolute;
         width: 90%;
@@ -29,6 +33,17 @@
 
     h2 {
         margin-bottom: 5%;
+        font-size: 20px;
+    }
+
+    .main-grid img{
+        width: 200px;
+        height: auto;
+    }
+
+    .home-img img {
+        width: 100px;
+        height: auto;
     }
 
     .main-grid ul {

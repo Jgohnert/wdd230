@@ -1,7 +1,7 @@
 const pricesURL = "https://jgohnert.github.io/wdd230/scoots/data/prices.json";
 
 const tableBody = document.querySelector("#table-body")
-const rentalDiv = document.querySelector("#rentals")
+const rentalDiv = document.querySelector(".main-grid")
 
 async function getPrices() {
     const response = await fetch(pricesURL);
@@ -37,7 +37,7 @@ function displayMotorInfo(rentalType) {
         let rentalimg = document.createElement("div");
 
         imgName.textContent = rental.name;
-        rentalimg.innerHTML = `<img src="${rental.image}" alt="${rental.name}" width="300" height="300" loading="lazy">`
+        rentalimg.innerHTML = `<img src="${rental.image}" alt="${rental.name}" width="250" height="250" loading="lazy">`
 
         rentalImgCard.appendChild(imgName)
         rentalImgCard.appendChild(rentalimg)
