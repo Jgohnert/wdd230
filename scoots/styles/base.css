@@ -2,9 +2,9 @@
 
 :root {
     --color1: #D72638; /*white text*/
-    --color2: #3F88C5; /*black text*/
+    --color2: #6ca5d3; /*black text*/
     --color3: #F49D37; /*black text*/
-    --color4: #140F2D; /*white text*/
+    --color4: #100c25; /*white text*/
     --color5: #F98D8B; /*black text*/
     --main-font: "Signika Negative", sans-serif, serif;
 }
@@ -26,6 +26,7 @@ header {
 header img {
     margin-right: 40px;
     background-color: var(--color4);
+    border: solid 2px var(--color1);
     padding: 10px;
     border-radius: 50%;
 }
@@ -39,7 +40,7 @@ nav {
 }
 
 nav a {
-	padding: 2rem;
+	padding: 1rem;
 	text-decoration: none;
 	color: black;
     font-size: 20px;
@@ -71,7 +72,7 @@ main {
 
 h2 {
     padding-top: 50px;
-    margin: 0%;
+    margin: auto 5%;
     margin-bottom: 10%;
 }
 
@@ -116,15 +117,12 @@ h3 {
 
 .main-grid {
     display: grid;
+    padding-bottom: 100px;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 h4 {
     margin-top: 5rem;
-}
-
-.main-grid {
-    padding-bottom: 100px;
 }
 
 .main-grid img {
@@ -137,7 +135,7 @@ h4 {
 .main-grid img:hover {
     transform: scale(1.1);
     border: solid 2px var(--color1);
-    margin-bottom: 16px;
+    margin-bottom: 18px;
 }
 
 .main-grid ul {
@@ -159,17 +157,13 @@ h4 {
     left: 5%;
 }
 
-.social-container img {
+.social-media img {
+    margin-top: 40px;
+    margin: 10px;
     background-color: var(--color4);
     border: solid 2px var(--color1);
     padding: 10px;
     border-radius: 50%;
-    
-}
-
-.social-media img {
-    margin-top: 40px;
-    margin: 10px;
 }
 
 .social-media a {
@@ -208,8 +202,96 @@ td {
     border: solid 2px var(--color1);
 }
 
+#rental-info {
+    margin: 10%;
+    padding: 30px 10px;
+    background-color: var(--color4);
+    border: solid 2px var(--color1);
+    color: var(--color2);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"]
+{ 
+    display: block;
+    border: solid 2px var(--color5);
+    padding: .75rem;
+    width: 100%;
+    max-width: 250px;
+}
+
+legend {
+    font-size: larger;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-left: 16px;
+}
+
+fieldset {
+    border: none;
+    text-align: left;
+}
+
+label {
+    margin: 1rem;
+    margin-top: 2rem;
+    display: block;
+}
+
+input[type="radio"] {
+    margin-top: .4rem;
+}
+
+textarea {
+    display: block;
+    border: solid 2px var(--color5);
+    padding: .75rem;
+    width: 88.5%;
+    max-width: 250px;
+    margin: 50px 250px 0px 16px;
+}
+
+input[type="submit"] {
+    padding: .65rem;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--color4);
+    border: solid 2px var(--color1);
+    color: var(--color2);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-right: 5%;
+}
+
+#user-comment {
+    margin: 0%;
+    margin-left: 3%;
+}
+
+#send-button {
+    margin: 10%;
+}
+
+iframe {
+    margin: 20px auto;
+    width: 90%;
+    height: 300px;
+}
+
 footer {
     display: flex;
+    flex-direction: column;
     background-color: var(--color3);
     padding: 10px;
     align-items: center;

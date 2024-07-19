@@ -27,42 +27,43 @@
   </header>
     <main>
       <h2>Reserve one of our scooters or jeeps</h2>
-      <p>We thank you for considering reserving one of vehicles. Before you begin your 
+      <p id="rental-info">We thank you for considering reserving one of vehicles. Before you begin your 
         form, A $50 security deposit is required to confirm reservations. After your 
         reservation is complete, a valid drivers license is required in hand at the 
         time of rental. No one under the age of 12 years of age are allowed to ride on 
-        the scooters. Be aware that fuel charge is not included with your rental.
+        the scooters. There is no fuel charge with your rental.
         Unlimited mileage, and liability insurance is included.
-        Damage insurance is available for purchase.
-        Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals is available to all
-        our renters.
+        Damage insurance is available for purchase, along with free delivery to Cozumel 
+        hotels or Airbnbs for 2+ day rentals.
         Please pay via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.
         Rentals may be returned to either physical location.</p>
-      <div id="Form-page">
+      <div>
         <form method="get" class="main-grid">
-          <fieldset>
+          <fieldset id="res-form">
             <legend>Reservation Form</legend>
+            <legend>Full or half day rent?</legend>
+            <label><input type="radio" name="rent-length" value="Half Day" required> Rent Half Day - 3 hrs</label>
+            <label><input type="radio" name="rent-length" value="Full Day" required> Rent Full Day</label>
+            <legend>What vehicle would you like to rent?</legend>
+            <label><input type="radio" name="vehicle-type" value="Metro Scooter" required> Honda Metro Scooter - $30 or $20 half day</label>
+            <label><input type="radio" name="vehicle-type" value="Dio Scooter" required> Honda Dio Scooter - $40 or $30 half day</label>
+            <label><input type="radio" name="vehicle-type" value="PCX150 Scooter" required> Honda PCX150 Scooter - $50 or $40 half day</label>
+            <label><input type="radio" name="vehicle-type" value="Pioneer ATV" required> Honda Pioneer ATV - $70 or $50 half day</label>
+            <label><input type="radio" name="vehicle-type" value="Jeep Wrangler 4 door" required> 4 door Jeep Wrangler with a/c - $100 or $70 half day</label>
+            <label><input type="radio" name="vehicle-type" value="Jeep Wrangler 2 door" required> 2 door Jeep Wrangler - $85 or $60 half day</label>
             <label>Reservation Date* <input type="date" name="resDate" id="resDate" required></label>
-            <label><input type="radio" name="rent-length" value="Half Day" required>Rent Half Day - 3 hrs</label>
-            <label><input type="radio" name="rent-length" value="Full Day" required>Rent Full Day</label>
-            <label><input type="radio" name="vehicle-type" value="Metro Scooter" required>Honda Metro Scooter - $30 or $20 half day</label>
-            <label><input type="radio" name="vehicle-type" value="Dio Scooter" required>Honda Dio Scooter - $40 or $30 half day</label>
-            <label><input type="radio" name="vehicle-type" value="PCX150 Scooter" required>Honda PCX150 Scooter - $50 or $40 half day</label>
-            <label><input type="radio" name="vehicle-type" value="Pioneer ATV" required>Honda Pioneer ATV - $70 or $50 half day</label>
-            <label><input type="radio" name="vehicle-type" value="Jeep Wrangler 4 door" required>4 door Jeep Wrangler with a/c - $100 or $70 half day</label>
-            <label><input type="radio" name="vehicle-type" value="Jeep Wrangler 2 door" required>2 door Jeep Wrangler - $85 or $60 half day</label>
             <label>Cruise Line if Applicable<input type="text" name="cruise" id="cruise"></label>
-            <textarea name="accommodations" id="accommodations" placeholder="Any Special accommodations, comments or drop-off request?"></textarea>
           </fieldset>
-          <fieldset>
+          <fieldset id="res-info">
             <legend>Your Information</legend>
             <label>Your First and Last Name* <input type="text" name="fullname" id="fullname" required></label>
             <label>Mobile Phone Number* <input type="tel" name="mob-number" id="mob-number" required></label>
             <label>Phone Number <input type="tel" name="hom-number" id="hom-number"></label>
             <label>Email* <input type="email" name="email" id="email" placeholder="youremail@gmail.com" required></label>
             <label>Home State or Country <input type="text" name="country" id="country"></label>
+            <textarea name="accommodations" id="accommodations" placeholder="Any Special accommodations, comments or drop-off request?"></textarea>
           </fieldset>
-          <input type="submit" value="Reserve Your Rental">
+          <input type="submit" value="Reserve Your Rental">  
         </form>
       </div>
     </main>
@@ -85,6 +86,5 @@
         </a>
       </div>
     </footer>
-    <script src="scripts/script.js"></script>
   </body>
 </html>

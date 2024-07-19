@@ -15,55 +15,61 @@
   </head>
   <body>
     <header>
-      <h1>Scoots Motor Rental Company Contact Information</h1>
-      <img src="images\scoots-logo.png" loading="lazy" width="100" height="100">
+      <img src="images\scoots-logo.webp" alt="scoots logo" width="100" height="100">
+      <h1>Scoots Motor Rental Company</h1>
+      <nav>
+        <a href="https://jgohnert.github.io/wdd230/scoots/">Home</a>
+        <a href="https://jgohnert.github.io/wdd230/scoots/rentals">Rentals</a>
+        <a href="https://jgohnert.github.io/wdd230/scoots/reservations">Reservations</a>
+        <a href="https://jgohnert.github.io/wdd230/scoots/contact">Contact</a>
+      </nav>
     </header>
-    <picture>
-      <source srcset="images\beach-hero-image.jpg" media="(max-width: 600px)">
-      <source srcset="images\beach-hero-image.jpg" media="(max-width: 900px)">
-      <img class="hero-image" src="images\beach-hero-image.jpg" alt="Fairfax" width="500">
-    </picture>
-    <button class="menu" aria-label="Menu"></button>
-    <nav>
-      <a href="https://jgohnert.github.io/wdd230/scoots/">Home</a>
-      <a href="https://jgohnert.github.io/wdd230/scoots/rentals">Rentals</a>
-      <a href="https://jgohnert.github.io/wdd230/scoots/reservations">Reservations</a>
-      <a href="https://jgohnert.github.io/wdd230/scoots/contact">Contact Informattion</a>
-    </nav>
     <main>
       <h2>Share your opinion and help us improve</h2>
-      <p>Contact Information</p>
-      <p>Number - 999-888-7777</p>
-      <p>Email - scootsmrc@hotmail.com</p>
-      <div>
-        <p>Social Media</p>
-        <a href="https://facebook.com" target="_blank">
-          <img src="images/facebook_logo.png" alt="facebook icon" loading="lazy" width="50" height="50">
-        </a>
-        <a href="https://x.com" target="_blank">
-          <img src="images/twitter_logo.png" alt="instagram icon" width="50" height="50">
-        </a>
-        <a href="https://instagram.com" target="_blank">
-          <img src="images/instagram-logo.png" alt=" icon" width="50" height="50">
-        </a>
-    </div>
-      <form method="get" class="contact-form">
-        <legend>Contact Form</legend>
-        <label>Name* <input type="text" name="fullname" id="fullname" required></label>
-        <label>Email* <input type="email" name="email" id="email" placeholder="youremail@gmail.com" required></label>
-        <textarea name="accommodations" id="accommodations" placeholder="Comment"></textarea>
-        <input type="submit" value="Send Comment">
+      <div id="rental-info">
+        <p>Contact Information</p>
+        <p>Number: 999-888-7777</p>
+        <p>Email: scootsmrc@hotmail.com</p>
+      </div>
+      <form method="get">
+        <fieldset class="contact-form">
+          <legend>Send us a comment</legend>
+          <label>Name* <input type="text" name="fullname" id="userFullname" required></label>
+          <label>Email* <input type="email" name="email" id="userEmail" placeholder="youremail@gmail.com" required></label>
+        </fieldset>
+        <fieldset class="contact-form">
+          <textarea name="comment" id="user-comment" placeholder="Comment Here"></textarea>
+        </fieldset>
+        <input type="submit" value="Send Comment" id="send-button">
       </form>
+      <h3>See locations</h3>
       <iframe 
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7473.719351712361!2d-86.95839624541715!3d20.511977899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59544d087521%3A0x69eae2037b2b2cba!2sTerminal%20Ferrys%20Cozumel!5e0!3m2!1sen!2sus!4v1720735317281!5m2!1sen!2sus" 
-      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7473.719351712361!2d-86.95839624541715!3d20.511977899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59544d087521%3A0x69eae2037b2b2cba!2sTerminal%20Ferrys%20Cozumel!5e0!3m2!1sen!2sus!4v1720735317281!5m2!1sen!2sus" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
       </iframe>
       <iframe 
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7475.488854613676!2d-86.98169360349482!3d20.475687600000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e57491a71c81d%3A0x6933058e58e0ee3d!2sPuerta%20Maya%20Cruise%20Ship%20Maritime%20Terminal!5e0!3m2!1sen!2sus!4v1720735654029!5m2!1sen!2sus" 
-      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7475.488854613676!2d-86.98169360349482!3d20.475687600000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e57491a71c81d%3A0x6933058e58e0ee3d!2sPuerta%20Maya%20Cruise%20Ship%20Maritime%20Terminal!5e0!3m2!1sen!2sus!4v1720735654029!5m2!1sen!2sus" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
       </iframe>
     </main>
-    <p>Joanna Gohnert | Scoots Motor Rental Company</p>
-    <script src="scriptfilename/"></script>
+    <picture class="background-img">
+      <img class="hero-image" src="images\beach-hero-image-large.webp" alt="beach" loading="lazy" width="1000">
+    </picture>
+    <footer>
+      <div>
+        <p>Joanna Gohnert | Scoots Motor Rental Company</p>
+      </div>
+      <div class="social-media">
+        <a href="https://facebook.com" target="_blank">
+          <img src="images/facebook_logo.webp" alt="facebook icon" width="50" height="50">
+        </a>
+        <a href="https://x.com" target="_blank">
+          <img src="images/twitter_logo.webp" alt="instagram icon" width="50" height="50">
+        </a>
+        <a href="https://instagram.com" target="_blank">
+          <img src="images/instagram-logo.webp" alt=" icon" width="50" height="50">
+        </a>
+      </div>
+    </footer>
   </body>
 </html>

@@ -9,6 +9,10 @@
         margin: 5px;
     }
 
+    nav a {
+        padding: 2rem;
+    }
+
     main {
         margin-top: 0%;
     }
@@ -29,5 +33,47 @@
 
     .main-grid ul {
         margin: auto 5% auto 0%;
+    }
+
+    #rental-info {
+        padding: 30px 80px;
+    }
+
+    form {
+        margin: 10% 10% 0% 5%;
+    }
+
+    #res-form {
+        grid-column: 1/3;
+    }
+    
+    #res-info {
+        grid-column: 3;
+    }
+
+    input[type="submit"] {
+        grid-column: 1/4;
+        margin-left: 27%;
+        width: 50%;
+    }
+
+    form {
+        margin-right: 10%; 
+     }
+
+    .contact-form {
+        margin: 0%;
+    }
+
+    iframe {
+        width: 80%;
+    }
+
+    #send-button {
+        margin: 10% 27%;
+    }
+
+    footer {
+        flex-direction: row;
     }
 }

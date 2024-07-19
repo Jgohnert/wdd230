@@ -54,4 +54,21 @@
         width: 60%;
         left: 20%
     }
+
+    form {
+       margin-left: 10%; 
+    }
+
+    input[type="submit"] {
+        margin-left: 25%;
+    }
+
+    #send-button {
+        margin: 10%;
+    }
+
+    iframe {
+        width: 40%;
+        height: 400px;
+    }
 }
