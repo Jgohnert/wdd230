@@ -45,7 +45,7 @@
         {
             "name": "Honda PCX150 Scooter",
             "maxPersons": 2,
-            "image": "images/scooter-2-seater2.jpg",
+            "image": "images/scooter-2-seater2.webp",
             "reservation": [
                 {
                     "halfDay": "$40"

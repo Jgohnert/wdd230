@@ -117,7 +117,6 @@ h3 {
 
 .main-grid {
     display: grid;
-    padding-bottom: 100px;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
@@ -148,9 +147,8 @@ h4 {
 }
 
 .social-container {
-    margin-top: 100px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-top: 10px;
+    padding: 10px auto;
     position: absolute;
     background-color: var(--color2);
     width: 90%;
@@ -168,6 +166,18 @@ h4 {
 
 .social-media a {
     text-decoration: none;
+}
+
+#island-images img {
+    background-color: none;
+    border-radius: 0%;
+    border: none;
+    padding: 0%;
+}
+
+#island-images {
+    overflow-y: scroll;
+    max-height: 200px;
 }
 
 table {
@@ -204,10 +214,15 @@ td {
 
 #rental-info {
     margin: 10%;
-    padding: 30px 10px;
+    padding: 10px 5px;
     background-color: var(--color4);
     border: solid 2px var(--color1);
     color: var(--color2);
+}
+
+.notice {
+    color: var(--color5);
+    margin: 5px;
 }
 
 input[type="text"],
@@ -256,8 +271,7 @@ textarea {
 input[type="submit"] {
     padding: .65rem;
     width: 80%;
-    margin-left: 10%;
-    margin-top: 10%;
+    margin: 10% auto;
 }
 
 input[type="submit"]:hover {
@@ -275,12 +289,12 @@ input[type="submit"]:hover {
 }
 
 #user-comment {
-    margin: 0%;
-    margin-left: 3%;
+    margin: auto;
+    text-align: center;
 }
 
 #send-button {
-    margin: 10%;
+    margin: 10% auto;
 }
 
 iframe {
@@ -293,7 +307,7 @@ footer {
     display: flex;
     flex-direction: column;
     background-color: var(--color3);
-    padding: 10px;
+    padding-left: 0px;
     align-items: center;
     text-align: center;
 }

@@ -69,11 +69,25 @@
         width: 80%;
     }
 
-    #send-button {
-        margin: 10% 27%;
+    .social-media img {
+        margin-top: 20px;
+    }
+
+    .social-container {
+        margin-top: 20px;
+    }
+
+    #island-images img{
+        margin-top: 10px;
+    }
+
+    #island-images {
+        overflow-y: scroll;
+        max-height: 250px;
     }
 
     footer {
         flex-direction: row;
+        padding-left: 50px;
     }
 }
