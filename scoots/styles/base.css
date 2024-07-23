@@ -237,6 +237,10 @@ input[type="date"]
     max-width: 250px;
 }
 
+#res-form p {
+    margin: 40px 0px 0px 16px;
+}
+
 legend {
     font-size: larger;
     font-weight: 600;
