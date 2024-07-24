@@ -6,7 +6,6 @@ const rentalDiv = document.querySelector(".main-grid")
 async function getPrices() {
     const response = await fetch(pricesURL);
     const rentalData = await response.json();
-    console.table(rentalData.rentalType)
     displayMotorInfo(rentalData.rentalType);
 }
 
