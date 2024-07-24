@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
 
 :root {
-    --color1: #D72638; /*white text*/
-    --color2: #6ca5d3; /*black text*/
-    --color3: #F49D37; /*black text*/
-    --color4: #100c25; /*white text*/
-    --color5: #F98D8B; /*black text*/
+    --primary-color: #F49D37;
+    --secondary-color: #6ca5d3;
+    --accent-color1: #100c25;
+    --accent-color2: #D72638;
+    --accent-color3: #F98D8B;
+    --border: solid 2px var(--accent-color2);
     --main-font: "Signika Negative", sans-serif, serif;
 }
 
@@ -14,19 +15,19 @@ body {
 }
 
 header {
-    background-color: var(--color3);
+    background-color: var(--primary-color);
     display: flex;
     flex-direction: column;
     padding: 20px;
     align-items: center;
     text-align: center;
-    border-bottom: solid 5px var(--color5);
+    border-bottom: solid 5px var(--accent-color3);
 }
 
 header img {
     margin-right: 40px;
-    background-color: var(--color4);
-    border: solid 2px var(--color1);
+    background-color: var(--accent-color1);
+    border: var(--border);
     padding: 10px;
     border-radius: 50%;
 }
@@ -34,7 +35,7 @@ header img {
 nav {
     display: flex;
 	flex-direction: column;
-    border-bottom: solid 2px var(--color1);
+    border-bottom: var(--border);
     width: 100%;
     text-align: center;
 }
@@ -44,17 +45,17 @@ nav a {
 	text-decoration: none;
 	color: black;
     font-size: 20px;
-    border: solid 2px var(--color1);
+    border: var(--border);
     border-bottom: none;
 }
 
 nav a:hover {
-    background-color: var(--color4);
-    color: var(--color2);
+    background-color: var(--accent-color1);
+    color: var(--secondary-color);
 }
 
 picture {
-    background-color: var(--color5);
+    background-color: var(--accent-color3);
 }
 
 .hero-image {
@@ -66,7 +67,7 @@ picture {
 }
 
 main {
-    background-image: linear-gradient(var(--color2), var(--color3), var(--color2));
+    background-image: linear-gradient(var(--secondary-color), var(--primary-color), var(--secondary-color));
     text-align: center;
 }
 
@@ -85,9 +86,9 @@ h2 {
 }
 
 #reservation:hover {
-    background-color: var(--color4);
-    color: var(--color2);
-    border: solid 2px var(--color1);
+    background-color: var(--accent-color1);
+    color: var(--secondary-color);
+    border: var(--border);
 }
 
 #message-button {
@@ -100,11 +101,11 @@ h2 {
 }
 
 #message {
-    background-color: var(--color4);
-    color: var(--color2);
+    background-color: var(--accent-color1);
+    color: var(--secondary-color);
     margin: 10% 100px;
     padding-bottom: 20px;
-    border: solid 2px var(--color1);
+    border: var(--border);
 }
 
 #message p {
@@ -125,7 +126,7 @@ h4 {
 }
 
 .main-grid img {
-    background-color: var(--color4);
+    background-color: var(--accent-color1);
     padding: 10px;
     border-radius: 50%;
     margin-bottom: 20px;
@@ -133,7 +134,7 @@ h4 {
 
 .main-grid img:hover {
     transform: scale(1.1);
-    border: solid 2px var(--color1);
+    border: var(--border);
     margin-bottom: 18px;
 }
 
@@ -150,7 +151,7 @@ h4 {
     margin-top: 10px;
     padding: 10px;
     position: absolute;
-    background-color: var(--color2);
+    background-color: var(--secondary-color);
     width: 90%;
     left: 5%;
 }
@@ -158,8 +159,8 @@ h4 {
 .social-media img {
     margin-top: 40px;
     margin: 10px;
-    background-color: var(--color4);
-    border: solid 2px var(--color1);
+    background-color: var(--accent-color1);
+    border: var(--border);
     padding: 10px;
     border-radius: 50%;
 }
@@ -192,13 +193,13 @@ caption {
 tr:first-child th {
     padding: 20px;
     font-size: 20px;
-    border-bottom: solid 2px var(--color1);
+    border-bottom: var(--border);
 }
 
 thead {
-    background-color: var(--color4);
-    color: var(--color2);
-    border: solid 2px var(--color1);
+    background-color: var(--accent-color1);
+    color: var(--secondary-color);
+    border: var(--border);
 }
 
 th {
@@ -208,19 +209,19 @@ th {
 td {
     width: 10%;
     padding: 10px;
-    border: solid 2px var(--color1);
+    border: var(--border);
 }
 
 #rental-info {
     margin: 10%;
     padding: 10px 5px;
-    background-color: var(--color4);
-    border: solid 2px var(--color1);
-    color: var(--color2);
+    background-color: var(--accent-color1);
+    border: var(--border);
+    color: var(--secondary-color);
 }
 
 .notice {
-    color: var(--color5);
+    color: var(--accent-color3);
     margin: 5px;
 }
 
@@ -230,7 +231,7 @@ input[type="tel"],
 input[type="date"]
 { 
     display: block;
-    border: solid 2px var(--color5);
+    border: solid 2px var(--accent-color3);
     padding: .75rem;
     width: 100%;
     max-width: 250px;
@@ -264,7 +265,7 @@ input[type="radio"] {
 
 textarea {
     display: block;
-    border: solid 2px var(--color5);
+    border: solid 2px var(--accent-color3);
     padding: .75rem;
     width: 88.5%;
     max-width: 250px;
@@ -278,9 +279,9 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: var(--color4);
-    border: solid 2px var(--color1);
-    color: var(--color2);
+    background-color: var(--accent-color1);
+    border: var(--border);
+    color: var(--secondary-color);
 }
 
 .contact-form {
@@ -309,7 +310,7 @@ iframe {
 footer {
     display: flex;
     flex-direction: column;
-    background-color: var(--color3);
+    background-color: var(--primary-color);
     padding-left: 0px;
     align-items: center;
     text-align: center;

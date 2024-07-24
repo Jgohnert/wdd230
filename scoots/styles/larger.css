@@ -11,7 +11,7 @@
     
     nav {
 		flex-direction: row;
-        border-left: solid 2px var(--color1);
+        border-left: var(--border);
         
 	}
 
